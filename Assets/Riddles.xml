@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Puzzles>
+	<!-- Level 1 riddles, Difficulty = 1 -->
+
+	<!-- Puzzle 1 -->
+	<Puzzle>
+		<Question>I have keys but no locks, space but no room, and you can enter but not go inside. What am I?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Keyboard</CorrectAnswer>
+		<WrongAnswer>Door</WrongAnswer>
+		<WrongAnswer>Car</WrongAnswer>
+		<WrongAnswer>House</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 2 -->
+	<Puzzle>
+		<Question>What has to be broken before you can use it?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Egg</CorrectAnswer>
+		<WrongAnswer>Glass</WrongAnswer>
+		<WrongAnswer>Lock</WrongAnswer>
+		<WrongAnswer>Stone</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 3 -->
+	<Puzzle>
+		<Question>I speak without a mouth and hear without ears. I have no body, but I come alive with sound. What am I?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Echo</CorrectAnswer>
+		<WrongAnswer>Shadow</WrongAnswer>
+		<WrongAnswer>Radio</WrongAnswer>
+		<WrongAnswer>Wind</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 4 -->
+	<Puzzle>
+		<Question>What has hands but cannot clap?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Clock</CorrectAnswer>
+		<WrongAnswer>Monkey</WrongAnswer>
+		<WrongAnswer>Robot</WrongAnswer>
+		<WrongAnswer>Tree</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 5 -->
+	<Puzzle>
+		<Question>What gets wetter the more it dries?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Towel</CorrectAnswer>
+		<WrongAnswer>Sponge</WrongAnswer>
+		<WrongAnswer>Cloud</WrongAnswer>
+		<WrongAnswer>River</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 6 -->
+	<Puzzle>
+		<Question>I’m tall when I’m young, and I’m short when I’m old. What am I?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Candle</CorrectAnswer>
+		<WrongAnswer>Tree</WrongAnswer>
+		<WrongAnswer>Person</WrongAnswer>
+		<WrongAnswer>Mountain</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 7 -->
+	<Puzzle>
+		<Question>What can you catch but not throw?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Cold</CorrectAnswer>
+		<WrongAnswer>Ball</WrongAnswer>
+		<WrongAnswer>Frisbee</WrongAnswer>
+		<WrongAnswer>Rock</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 8 -->
+	<Puzzle>
+		<Question>What has a face and two hands but no arms or legs?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Clock</CorrectAnswer>
+		<WrongAnswer>Robot</WrongAnswer>
+		<WrongAnswer>Doll</WrongAnswer>
+		<WrongAnswer>Statue</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 9 -->
+	<Puzzle>
+		<Question>What has many teeth but cannot bite?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Comb</CorrectAnswer>
+		<WrongAnswer>Shark</WrongAnswer>
+		<WrongAnswer>Saw</WrongAnswer>
+		<WrongAnswer>Gear</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 10 -->
+	<Puzzle>
+		<Question>What can travel around the world while staying in the same corner?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Stamp</CorrectAnswer>
+		<WrongAnswer>Compass</WrongAnswer>
+		<WrongAnswer>Map</WrongAnswer>
+		<WrongAnswer>Globe</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 11 -->
+	<Puzzle>
+		<Question>What has a neck but no head?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Bottle</CorrectAnswer>
+		<WrongAnswer>Guitar</WrongAnswer>
+		<WrongAnswer>Snake</WrongAnswer>
+		<WrongAnswer>Road</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 12 -->
+	<Puzzle>
+		<Question>What has one eye but cannot see?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Needle</CorrectAnswer>
+		<WrongAnswer>Cyclops</WrongAnswer>
+		<WrongAnswer>Storm</WrongAnswer>
+		<WrongAnswer>Camera</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 13 -->
+	<Puzzle>
+		<Question>Which month of the year has 28 days?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>All of them</CorrectAnswer>
+		<WrongAnswer>February</WrongAnswer>
+		<WrongAnswer>January</WrongAnswer>
+		<WrongAnswer>None</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 14 -->
+	<Puzzle>
+		<Question>What begins with T, ends with T, and has T in it?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Teapot</CorrectAnswer>
+		<WrongAnswer>Tent</WrongAnswer>
+		<WrongAnswer>Toilet</WrongAnswer>
+		<WrongAnswer>Tomato</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 15 -->
+	<Puzzle>
+		<Question>What belongs to you but is used more often by others?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Your name</CorrectAnswer>
+		<WrongAnswer>Your phone</WrongAnswer>
+		<WrongAnswer>Your car</WrongAnswer>
+		<WrongAnswer>Your money</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 16 -->
+	<Puzzle>
+		<Question>What goes up but never comes down?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Your age</CorrectAnswer>
+		<WrongAnswer>Balloon</WrongAnswer>
+		<WrongAnswer>Smoke</WrongAnswer>
+		<WrongAnswer>Stairs</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 17 -->
+	<Puzzle>
+		<Question>What has four wheels and flies?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Garbage truck</CorrectAnswer>
+		<WrongAnswer>Airplane</WrongAnswer>
+		<WrongAnswer>Helicopter</WrongAnswer>
+		<WrongAnswer>Train</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 18 -->
+	<Puzzle>
+		<Question>What can you hold in your left hand but never in your right hand?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Your right hand</CorrectAnswer>
+		<WrongAnswer>Your phone</WrongAnswer>
+		<WrongAnswer>Your head</WrongAnswer>
+		<WrongAnswer>Your left hand</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 19 -->
+	<Puzzle>
+		<Question>What kind of room has no doors or windows?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Mushroom</CorrectAnswer>
+		<WrongAnswer>Bathroom</WrongAnswer>
+		<WrongAnswer>Classroom</WrongAnswer>
+		<WrongAnswer>Basement</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 20 -->
+	<Puzzle>
+		<Question>What has a head and a tail but no body?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Coin</CorrectAnswer>
+		<WrongAnswer>Snake</WrongAnswer>
+		<WrongAnswer>Comet</WrongAnswer>
+		<WrongAnswer>Lizard</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 21 -->
+	<Puzzle>
+		<Question>The more of this there is, the less you see. What is it?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Darkness</CorrectAnswer>
+		<WrongAnswer>Light</WrongAnswer>
+		<WrongAnswer>Fog</WrongAnswer>
+		<WrongAnswer>Rain</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 22 -->
+	<Puzzle>
+		<Question>What runs but never walks, has a bed but never sleeps?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>River</CorrectAnswer>
+		<WrongAnswer>Car</WrongAnswer>
+		<WrongAnswer>Clock</WrongAnswer>
+		<WrongAnswer>Dog</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 23 -->
+	<Puzzle>
+		<Question>What has words but never speaks?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Book</CorrectAnswer>
+		<WrongAnswer>Radio</WrongAnswer>
+		<WrongAnswer>Phone</WrongAnswer>
+		<WrongAnswer>TV</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 24 -->
+	<Puzzle>
+		<Question>What is full of holes but still holds water?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Sponge</CorrectAnswer>
+		<WrongAnswer>Bucket</WrongAnswer>
+		<WrongAnswer>Net</WrongAnswer>
+		<WrongAnswer>Bottle</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 25 -->
+	<Puzzle>
+		<Question>What goes up and down but does not move?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Stairs</CorrectAnswer>
+		<WrongAnswer>Elevator</WrongAnswer>
+		<WrongAnswer>Ball</WrongAnswer>
+		<WrongAnswer>Yo-yo</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 26 -->
+	<Puzzle>
+		<Question>What has ears but cannot hear?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Cornfield</CorrectAnswer>
+		<WrongAnswer>Robot</WrongAnswer>
+		<WrongAnswer>Pillow</WrongAnswer>
+		<WrongAnswer>Cloud</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 27 -->
+	<Puzzle>
+		<Question>What can you keep after giving it to someone?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Your word</CorrectAnswer>
+		<WrongAnswer>Money</WrongAnswer>
+		<WrongAnswer>Gift</WrongAnswer>
+		<WrongAnswer>Secret</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 28 -->
+	<Puzzle>
+		<Question>What has an end but no beginning, a home but no family, and a space without room? (Programming)</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>String</CorrectAnswer>
+		<WrongAnswer>Array</WrongAnswer>
+		<WrongAnswer>Class</WrongAnswer>
+		<WrongAnswer>File</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 29 -->
+	<Puzzle>
+		<Question>In many programming languages, what keyword is used to define a function?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>function</CorrectAnswer>
+		<WrongAnswer>define</WrongAnswer>
+		<WrongAnswer>funct</WrongAnswer>
+		<WrongAnswer>proc</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 30 -->
+	<Puzzle>
+		<Question>In binary, what number comes after 1?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>10</CorrectAnswer>
+		<WrongAnswer>2</WrongAnswer>
+		<WrongAnswer>11</WrongAnswer>
+		<WrongAnswer>01</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 31 -->
+	<Puzzle>
+		<Question>If you multiply any number by zero, what do you get?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Zero</CorrectAnswer>
+		<WrongAnswer>The same number</WrongAnswer>
+		<WrongAnswer>One</WrongAnswer>
+		<WrongAnswer>Error</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 32 -->
+	<Puzzle>
+		<Question>I’m not alive, but if you feed me, I grow. If you give me water, I die. What am I?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Fire</CorrectAnswer>
+		<WrongAnswer>Plant</WrongAnswer>
+		<WrongAnswer>Robot</WrongAnswer>
+		<WrongAnswer>Rock</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 33 -->
+	<Puzzle>
+		<Question>What has cities, but no houses; forests, but no trees; and rivers, but no water?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Map</CorrectAnswer>
+		<WrongAnswer>Painting</WrongAnswer>
+		<WrongAnswer>Game</WrongAnswer>
+		<WrongAnswer>Story</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 34 -->
+	<Puzzle>
+		<Question>What gets bigger the more you take away from it?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Hole</CorrectAnswer>
+		<WrongAnswer>Balloon</WrongAnswer>
+		<WrongAnswer>Shadow</WrongAnswer>
+		<WrongAnswer>Pile of sand</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 35 -->
+	<Puzzle>
+		<Question>Which weighs more, a kilo of feathers or a kilo of steel?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>They weigh the same</CorrectAnswer>
+		<WrongAnswer>Feathers</WrongAnswer>
+		<WrongAnswer>Steel</WrongAnswer>
+		<WrongAnswer>Neither exists</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 36 -->
+	<Puzzle>
+		<Question>What number do you get if you divide any number by itself (except zero)?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>1</CorrectAnswer>
+		<WrongAnswer>0</WrongAnswer>
+		<WrongAnswer>The number</WrongAnswer>
+		<WrongAnswer>2</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 37 -->
+	<Puzzle>
+		<Question>What has rings but no fingers?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Telephone</CorrectAnswer>
+		<WrongAnswer>Tree</WrongAnswer>
+		<WrongAnswer>Chain</WrongAnswer>
+		<WrongAnswer>Alarm clock</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 38 -->
+	<Puzzle>
+		<Question>If you write code that repeats forever and never stops, what kind of loop is that?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Infinite loop</CorrectAnswer>
+		<WrongAnswer>For loop</WrongAnswer>
+		<WrongAnswer>While loop</WrongAnswer>
+		<WrongAnswer>Recursive loop</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 39 -->
+	<Puzzle>
+		<Question>In many languages, what symbol is commonly used to mark a single-line comment?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>//</CorrectAnswer>
+		<WrongAnswer>##</WrongAnswer>
+		<WrongAnswer>/*</WrongAnswer>
+		<WrongAnswer>--</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 40 -->
+	<Puzzle>
+		<Question>If 3 + x = 5, what is x?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>2</CorrectAnswer>
+		<WrongAnswer>3</WrongAnswer>
+		<WrongAnswer>1</WrongAnswer>
+		<WrongAnswer>5</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 41 -->
+	<Puzzle>
+		<Question>What comes once in a minute, twice in a moment, but never in a thousand years?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>The letter M</CorrectAnswer>
+		<WrongAnswer>The letter O</WrongAnswer>
+		<WrongAnswer>The sun</WrongAnswer>
+		<WrongAnswer>A second</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 42 -->
+	<Puzzle>
+		<Question>What can fill a room but takes up no space?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Light</CorrectAnswer>
+		<WrongAnswer>Air</WrongAnswer>
+		<WrongAnswer>Water</WrongAnswer>
+		<WrongAnswer>Sound</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 43 -->
+	<Puzzle>
+		<Question>What has a thumb and four fingers, but is not alive?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Glove</CorrectAnswer>
+		<WrongAnswer>Hand</WrongAnswer>
+		<WrongAnswer>Robot</WrongAnswer>
+		<WrongAnswer>Statue</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 44 -->
+	<Puzzle>
+		<Question>What building has the most stories?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Library</CorrectAnswer>
+		<WrongAnswer>Skyscraper</WrongAnswer>
+		<WrongAnswer>Mall</WrongAnswer>
+		<WrongAnswer>Museum</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 45 -->
+	<Puzzle>
+		<Question>What kind of key can’t open locks?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Piano key</CorrectAnswer>
+		<WrongAnswer>House key</WrongAnswer>
+		<WrongAnswer>Car key</WrongAnswer>
+		<WrongAnswer>Master key</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 46 -->
+	<Puzzle>
+		<Question>You see me once in June, twice in November, but not at all in May. What am I?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>The letter E</CorrectAnswer>
+		<WrongAnswer>The letter N</WrongAnswer>
+		<WrongAnswer>The letter U</WrongAnswer>
+		<WrongAnswer>The letter O</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 47 -->
+	<Puzzle>
+		<Question>If today is Monday, what day will it be in two days?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Wednesday</CorrectAnswer>
+		<WrongAnswer>Tuesday</WrongAnswer>
+		<WrongAnswer>Thursday</WrongAnswer>
+		<WrongAnswer>Friday</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 48 -->
+	<Puzzle>
+		<Question>What has stripes and goes down but never goes up, appearing on roads to slow cars?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Speed bump marking</CorrectAnswer>
+		<WrongAnswer>Zebra</WrongAnswer>
+		<WrongAnswer>Fence</WrongAnswer>
+		<WrongAnswer>Ladder</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 49 -->
+	<Puzzle>
+		<Question>I’m always in front of you but can’t be seen. What am I?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>The future</CorrectAnswer>
+		<WrongAnswer>Air</WrongAnswer>
+		<WrongAnswer>Shadow</WrongAnswer>
+		<WrongAnswer>Wind</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 50 -->
+	<Puzzle>
+		<Question>What 3-letter word becomes shorter when you add two letters to it?</Question>
+		<Difficulty>1</Difficulty>
+		<CorrectAnswer>Short</CorrectAnswer>
+		<WrongAnswer>Cut</WrongAnswer>
+		<WrongAnswer>Few</WrongAnswer>
+		<WrongAnswer>Low</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 1 -->
+	<Puzzle>
+		<Question>I’m taken from a mine and shut up in a wooden case, from which I’m never released, yet I’m used by almost every student. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Pencil lead</CorrectAnswer>
+		<WrongAnswer>Eraser</WrongAnswer>
+		<WrongAnswer>Paper</WrongAnswer>
+		<WrongAnswer>Ink</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 2 -->
+	<Puzzle>
+		<Question>I have branches but no fruit, trunk, or leaves. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Bank</CorrectAnswer>
+		<WrongAnswer>River</WrongAnswer>
+		<WrongAnswer>Road</WrongAnswer>
+		<WrongAnswer>Library</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 3 -->
+	<Puzzle>
+		<Question>What flies forever, rests never, and can kill time but not people?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Time</CorrectAnswer>
+		<WrongAnswer>Wind</WrongAnswer>
+		<WrongAnswer>Shadow</WrongAnswer>
+		<WrongAnswer>Thought</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 4 -->
+	<Puzzle>
+		<Question>I can be written, compiled, and run, but I am not a race. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Program</CorrectAnswer>
+		<WrongAnswer>Loop</WrongAnswer>
+		<WrongAnswer>Thread</WrongAnswer>
+		<WrongAnswer>Server</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 5 -->
+	<Puzzle>
+		<Question>I have no windows or doors, but you still debug inside me. In programming, what am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Function</CorrectAnswer>
+		<WrongAnswer>Comment</WrongAnswer>
+		<WrongAnswer>Variable</WrongAnswer>
+		<WrongAnswer>Header file</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 6 -->
+	<Puzzle>
+		<Question>What disappears as soon as you say its name?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Silence</CorrectAnswer>
+		<WrongAnswer>Secret</WrongAnswer>
+		<WrongAnswer>Shadow</WrongAnswer>
+		<WrongAnswer>Breath</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 7 -->
+	<Puzzle>
+		<Question>What has keys that open no locks and space but no room, yet helps you talk to machines?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Keyboard</CorrectAnswer>
+		<WrongAnswer>Console</WrongAnswer>
+		<WrongAnswer>Router</WrongAnswer>
+		<WrongAnswer>Phone</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 8 -->
+	<Puzzle>
+		<Question>You throw away the outside and cook the inside. Then you eat the outside and throw away the inside. What did you eat?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Corn on the cob</CorrectAnswer>
+		<WrongAnswer>Egg</WrongAnswer>
+		<WrongAnswer>Potato</WrongAnswer>
+		<WrongAnswer>Banana</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 9 -->
+	<Puzzle>
+		<Question>I can store many values, all in a row. In programming, I’m indexed but never stressed. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Array</CorrectAnswer>
+		<WrongAnswer>Loop</WrongAnswer>
+		<WrongAnswer>Class</WrongAnswer>
+		<WrongAnswer>Module</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 10 -->
+	<Puzzle>
+		<Question>What 3-digit number is equal to 3 × 3 × 3 × 3?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>81</CorrectAnswer>
+		<WrongAnswer>64</WrongAnswer>
+		<WrongAnswer>72</WrongAnswer>
+		<WrongAnswer>90</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 11 -->
+	<Puzzle>
+		<Question>A variable starts at 10. You subtract 3, then add 5, then subtract 4. What is its final value?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>8</CorrectAnswer>
+		<WrongAnswer>7</WrongAnswer>
+		<WrongAnswer>6</WrongAnswer>
+		<WrongAnswer>9</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 12 -->
+	<Puzzle>
+		<Question>I have an eye but cannot see, and when I open, water runs free. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Needle of a storm (hurricane eye)</CorrectAnswer>
+		<WrongAnswer>Faucet</WrongAnswer>
+		<WrongAnswer>Camera</WrongAnswer>
+		<WrongAnswer>Fish</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 13 -->
+	<Puzzle>
+		<Question>I hide in code and change what happens only when a condition is true. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>If statement</CorrectAnswer>
+		<WrongAnswer>Loop</WrongAnswer>
+		<WrongAnswer>Comment</WrongAnswer>
+		<WrongAnswer>Import</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 14 -->
+	<Puzzle>
+		<Question>I am bought by the meter but worn by the foot. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Carpet</CorrectAnswer>
+		<WrongAnswer>Trousers</WrongAnswer>
+		<WrongAnswer>Shoes</WrongAnswer>
+		<WrongAnswer>Rope</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 15 -->
+	<Puzzle>
+		<Question>If you double me and add 10, you get 30. What number am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>10</CorrectAnswer>
+		<WrongAnswer>15</WrongAnswer>
+		<WrongAnswer>20</WrongAnswer>
+		<WrongAnswer>5</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 16 -->
+	<Puzzle>
+		<Question>What increases but never decreases, can be logged but not touched, and tells you how long something has been running?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Uptime</CorrectAnswer>
+		<WrongAnswer>Battery level</WrongAnswer>
+		<WrongAnswer>CPU temperature</WrongAnswer>
+		<WrongAnswer>Frame rate</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 17 -->
+	<Puzzle>
+		<Question>Which is larger: the sum 1 + 2 + 3 + 4 or 2 × 5?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>They are equal</CorrectAnswer>
+		<WrongAnswer>1 + 2 + 3 + 4</WrongAnswer>
+		<WrongAnswer>2 × 5</WrongAnswer>
+		<WrongAnswer>Neither, both are 12</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 18 -->
+	<Puzzle>
+		<Question>I’m where your code goes to rest, yet I’m not a bed. I keep old versions of files. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Repository</CorrectAnswer>
+		<WrongAnswer>Compiler</WrongAnswer>
+		<WrongAnswer>Virtual machine</WrongAnswer>
+		<WrongAnswer>Desktop</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 19 -->
+	<Puzzle>
+		<Question>I start with an E, end with an E, but usually contain just one letter. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Envelope</CorrectAnswer>
+		<WrongAnswer>Eye</WrongAnswer>
+		<WrongAnswer>Eve</WrongAnswer>
+		<WrongAnswer>Engine</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 20 -->
+	<Puzzle>
+		<Question>The more you take, the more you leave behind. What are they?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Footsteps</CorrectAnswer>
+		<WrongAnswer>Memories</WrongAnswer>
+		<WrongAnswer>Coins</WrongAnswer>
+		<WrongAnswer>Questions</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 21 -->
+	<Puzzle>
+		<Question>If x = 4 and y = 3, what is x² + y²?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>25</CorrectAnswer>
+		<WrongAnswer>12</WrongAnswer>
+		<WrongAnswer>7</WrongAnswer>
+		<WrongAnswer>5</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 22 -->
+	<Puzzle>
+		<Question>What do programmers call a mistake in the code that causes unexpected behavior?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Bug</CorrectAnswer>
+		<WrongAnswer>Error</WrongAnswer>
+		<WrongAnswer>Warning</WrongAnswer>
+		<WrongAnswer>Patch</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 23 -->
+	<Puzzle>
+		<Question>What has a heart that doesn’t beat and rings that don’t sing, but helps measure time?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Tree trunk (rings) in a calendar year</CorrectAnswer>
+		<WrongAnswer>Clock</WrongAnswer>
+		<WrongAnswer>Phone</WrongAnswer>
+		<WrongAnswer>Bell</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 24 -->
+	<Puzzle>
+		<Question>If a number is divisible by 2 and by 3, which of these is it also divisible by?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>6</CorrectAnswer>
+		<WrongAnswer>4</WrongAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>5</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 25 -->
+	<Puzzle>
+		<Question>I mark the start and end of strings in many languages, yet I’m just a symbol. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Quotation mark</CorrectAnswer>
+		<WrongAnswer>Semicolon</WrongAnswer>
+		<WrongAnswer>Bracket</WrongAnswer>
+		<WrongAnswer>Colon</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 26 -->
+	<Puzzle>
+		<Question>You see me in years, you see me in days, but never in hours or minutes. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>The letter Y</CorrectAnswer>
+		<WrongAnswer>The letter R</WrongAnswer>
+		<WrongAnswer>The sun</WrongAnswer>
+		<WrongAnswer>The moon</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 27 -->
+	<Puzzle>
+		<Question>If a loop runs 5 times, adding 2 to a starting value of 0 each time, what is the final value?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>10</CorrectAnswer>
+		<WrongAnswer>8</WrongAnswer>
+		<WrongAnswer>12</WrongAnswer>
+		<WrongAnswer>5</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 28 -->
+	<Puzzle>
+		<Question>I turn coffee into code but I’m not a machine. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Programmer</CorrectAnswer>
+		<WrongAnswer>Compiler</WrongAnswer>
+		<WrongAnswer>IDE</WrongAnswer>
+		<WrongAnswer>Server</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 29 -->
+	<Puzzle>
+		<Question>I am always in front of you but can never be seen, measured in seconds but not in meters. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Future</CorrectAnswer>
+		<WrongAnswer>Air</WrongAnswer>
+		<WrongAnswer>Shadow</WrongAnswer>
+		<WrongAnswer>Hope</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 30 -->
+	<Puzzle>
+		<Question>If 2^3 = 8, what is 2^4?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>16</CorrectAnswer>
+		<WrongAnswer>12</WrongAnswer>
+		<WrongAnswer>18</WrongAnswer>
+		<WrongAnswer>20</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 31 -->
+	<Puzzle>
+		<Question>I connect two values with a condition. In many languages, I can be &gt;, &lt;, or ==. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Comparison operator</CorrectAnswer>
+		<WrongAnswer>Assignment</WrongAnswer>
+		<WrongAnswer>Loop control</WrongAnswer>
+		<WrongAnswer>Index</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 32 -->
+	<Puzzle>
+		<Question>What two-digit number is equal to 7 × 7?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>49</CorrectAnswer>
+		<WrongAnswer>42</WrongAnswer>
+		<WrongAnswer>56</WrongAnswer>
+		<WrongAnswer>63</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 33 -->
+	<Puzzle>
+		<Question>I can run, but I never walk; I have a bed, but never sleep. I’m used in testing but not in dreams. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Test suite (test run)</CorrectAnswer>
+		<WrongAnswer>River</WrongAnswer>
+		<WrongAnswer>Thread</WrongAnswer>
+		<WrongAnswer>Queue</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 34 -->
+	<Puzzle>
+		<Question>Which number is halfway between 10 and 20?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>15</CorrectAnswer>
+		<WrongAnswer>12</WrongAnswer>
+		<WrongAnswer>14</WrongAnswer>
+		<WrongAnswer>16</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 35 -->
+	<Puzzle>
+		<Question>In many languages, what is the name for a function that calls itself?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Recursive</CorrectAnswer>
+		<WrongAnswer>Iterative</WrongAnswer>
+		<WrongAnswer>Anonymous</WrongAnswer>
+		<WrongAnswer>Static</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 36 -->
+	<Puzzle>
+		<Question>What has a head, a tail, is brown, and has no legs?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Penny (coin)</CorrectAnswer>
+		<WrongAnswer>Dinosaur</WrongAnswer>
+		<WrongAnswer>Dog</WrongAnswer>
+		<WrongAnswer>Stick</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 37 -->
+	<Puzzle>
+		<Question>If you reverse me I’m still the same. I’m a number greater than 9 but less than 12. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>11</CorrectAnswer>
+		<WrongAnswer>10</WrongAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>12</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 38 -->
+	<Puzzle>
+		<Question>I group related data together in many languages and can hold different types. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Struct or object</CorrectAnswer>
+		<WrongAnswer>Integer</WrongAnswer>
+		<WrongAnswer>Pointer</WrongAnswer>
+		<WrongAnswer>Constant</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 39 -->
+	<Puzzle>
+		<Question>If 5x = 45, what is x?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>9</CorrectAnswer>
+		<WrongAnswer>8</WrongAnswer>
+		<WrongAnswer>7</WrongAnswer>
+		<WrongAnswer>6</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 40 -->
+	<Puzzle>
+		<Question>What do you call a name given to a storage location in programming?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Variable</CorrectAnswer>
+		<WrongAnswer>Comment</WrongAnswer>
+		<WrongAnswer>Header</WrongAnswer>
+		<WrongAnswer>Loop</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 41 -->
+	<Puzzle>
+		<Question>I am always hungry and will die if you give me water. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Fire</CorrectAnswer>
+		<WrongAnswer>Plant</WrongAnswer>
+		<WrongAnswer>Robot</WrongAnswer>
+		<WrongAnswer>Engine</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 42 -->
+	<Puzzle>
+		<Question>I keep things in order by index, but I’m not a librarian. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Array</CorrectAnswer>
+		<WrongAnswer>Queue</WrongAnswer>
+		<WrongAnswer>Stack</WrongAnswer>
+		<WrongAnswer>Hash map</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 43 -->
+	<Puzzle>
+		<Question>If the sum of three consecutive numbers is 18, what is the middle number?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>6</CorrectAnswer>
+		<WrongAnswer>5</WrongAnswer>
+		<WrongAnswer>7</WrongAnswer>
+		<WrongAnswer>4</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 44 -->
+	<Puzzle>
+		<Question>I’m a loop that never ends unless you break me. What kind of loop am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Infinite loop</CorrectAnswer>
+		<WrongAnswer>For loop</WrongAnswer>
+		<WrongAnswer>While loop</WrongAnswer>
+		<WrongAnswer>Do-while loop</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 45 -->
+	<Puzzle>
+		<Question>If 100 in binary is 4 in decimal, what decimal number is 101 in binary?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>5</CorrectAnswer>
+		<WrongAnswer>6</WrongAnswer>
+		<WrongAnswer>3</WrongAnswer>
+		<WrongAnswer>7</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 46 -->
+	<Puzzle>
+		<Question>What has many lines of text, can be compiled or interpreted, and often starts with an import?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Source code file</CorrectAnswer>
+		<WrongAnswer>Log file</WrongAnswer>
+		<WrongAnswer>Configuration file</WrongAnswer>
+		<WrongAnswer>README</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 47 -->
+	<Puzzle>
+		<Question>What 2-digit number is the same as the sum of its digits multiplied by 4? (Example: 12, (1+2)×4 = 12)</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>12</CorrectAnswer>
+		<WrongAnswer>16</WrongAnswer>
+		<WrongAnswer>20</WrongAnswer>
+		<WrongAnswer>24</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 48 -->
+	<Puzzle>
+		<Question>I’m used in loops, count from 0 or 1, and often named i. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Index variable</CorrectAnswer>
+		<WrongAnswer>Constant</WrongAnswer>
+		<WrongAnswer>Pointer</WrongAnswer>
+		<WrongAnswer>Class name</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 49 -->
+	<Puzzle>
+		<Question>I am not a bug, but I fix bugs. I step through code line by line. What am I?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>Debugger</CorrectAnswer>
+		<WrongAnswer>Compiler</WrongAnswer>
+		<WrongAnswer>Interpreter</WrongAnswer>
+		<WrongAnswer>Linter</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 50 -->
+	<Puzzle>
+		<Question>If 9 + x = 3 × 7, what is x?</Question>
+		<Difficulty>2</Difficulty>
+		<CorrectAnswer>12</CorrectAnswer>
+		<WrongAnswer>10</WrongAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>14</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 1 -->
+	<Puzzle>
+		<Question>I am an odd number. Take away one letter and I become even. What number am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Seven</CorrectAnswer>
+		<WrongAnswer>Five</WrongAnswer>
+		<WrongAnswer>Nine</WrongAnswer>
+		<WrongAnswer>Eleven</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 2 -->
+	<Puzzle>
+		<Question>Two fathers and two sons sit down to code. They each write one program, but only three programs are written. How is that possible?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>They are grandfather, father, and son</CorrectAnswer>
+		<WrongAnswer>One program is shared</WrongAnswer>
+		<WrongAnswer>One is a duplicate</WrongAnswer>
+		<WrongAnswer>They stopped early</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 3 -->
+	<Puzzle>
+		<Question>What 3-digit number has a hundreds digit 3, a tens digit 4, and is divisible by 9?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>342</CorrectAnswer>
+		<WrongAnswer>341</WrongAnswer>
+		<WrongAnswer>349</WrongAnswer>
+		<WrongAnswer>345</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 4 -->
+	<Puzzle>
+		<Question>In a language that starts array indices at 0, what is the index of the last element in an array of length n?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>n - 1</CorrectAnswer>
+		<WrongAnswer>n</WrongAnswer>
+		<WrongAnswer>n + 1</WrongAnswer>
+		<WrongAnswer>0</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 5 -->
+	<Puzzle>
+		<Question>If x is an even integer and y is an odd integer, which of these must always be odd?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>x + y</CorrectAnswer>
+		<WrongAnswer>x - y</WrongAnswer>
+		<WrongAnswer>x × y</WrongAnswer>
+		<WrongAnswer>x / y</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 6 -->
+	<Puzzle>
+		<Question>You see a variable in code that never changes after it is set once. It is used for configuration and shared across functions. What is it most likely?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Constant</CorrectAnswer>
+		<WrongAnswer>Local variable</WrongAnswer>
+		<WrongAnswer>Loop counter</WrongAnswer>
+		<WrongAnswer>Return value</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 7 -->
+	<Puzzle>
+		<Question>There are 8 bits in a byte. How many distinct values can a single byte represent?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>256</CorrectAnswer>
+		<WrongAnswer>128</WrongAnswer>
+		<WrongAnswer>255</WrongAnswer>
+		<WrongAnswer>512</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 8 -->
+	<Puzzle>
+		<Question>I start with 1, end with 1, and in between I am filled with zeros and ones. In computing, what am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Binary representation of a number</CorrectAnswer>
+		<WrongAnswer>Network packet</WrongAnswer>
+		<WrongAnswer>Array</WrongAnswer>
+		<WrongAnswer>Pointer</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 9 -->
+	<Puzzle>
+		<Question>You have a function that calls itself directly or indirectly. If you forget the base case, what is the result?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Infinite recursion</CorrectAnswer>
+		<WrongAnswer>Compilation error</WrongAnswer>
+		<WrongAnswer>Syntax error</WrongAnswer>
+		<WrongAnswer>Type mismatch</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 10 -->
+	<Puzzle>
+		<Question>In a sorted list of 1024 elements, which search method is more efficient: linear search or binary search, and why?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Binary search, because it runs in O(log n)</CorrectAnswer>
+		<WrongAnswer>Linear search, because it checks every element</WrongAnswer>
+		<WrongAnswer>Both are equal</WrongAnswer>
+		<WrongAnswer>It depends on the data type</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 11 -->
+	<Puzzle>
+		<Question>You have three consecutive integers whose sum is 30. What is the middle integer?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>10</CorrectAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>11</WrongAnswer>
+		<WrongAnswer>8</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 12 -->
+	<Puzzle>
+		<Question>In many languages, what does &quot;==&quot; mean when used between two variables?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Comparison for equality</CorrectAnswer>
+		<WrongAnswer>Assignment</WrongAnswer>
+		<WrongAnswer>Concatenation</WrongAnswer>
+		<WrongAnswer>Logical AND</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 13 -->
+	<Puzzle>
+		<Question>I am always in front of you, never behind you, but every time you move, I move too. I can be estimated, but never seen. What am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>The future</CorrectAnswer>
+		<WrongAnswer>Shadow</WrongAnswer>
+		<WrongAnswer>Wind</WrongAnswer>
+		<WrongAnswer>Memory</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 14 -->
+	<Puzzle>
+		<Question>A number is divisible by 9 if the sum of its digits is divisible by 9. Is 4374 divisible by 9?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Yes</CorrectAnswer>
+		<WrongAnswer>No</WrongAnswer>
+		<WrongAnswer>Only by 3</WrongAnswer>
+		<WrongAnswer>Only by 6</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 15 -->
+	<Puzzle>
+		<Question>In a 24-hour clock, how many right angles do the hour and minute hands form in one full day?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>44</CorrectAnswer>
+		<WrongAnswer>24</WrongAnswer>
+		<WrongAnswer>48</WrongAnswer>
+		<WrongAnswer>12</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 16 -->
+	<Puzzle>
+		<Question>In Big-O notation, which growth is faster as n becomes very large: O(n²) or O(n log n)?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>O(n²)</CorrectAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+		<WrongAnswer>They grow the same</WrongAnswer>
+		<WrongAnswer>Depends on constants</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 17 -->
+	<Puzzle>
+		<Question>What 3-digit number is equal to 7 × 11 × 13?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>1001</CorrectAnswer>
+		<WrongAnswer>777</WrongAnswer>
+		<WrongAnswer>1000</WrongAnswer>
+		<WrongAnswer>1331</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 18 -->
+	<Puzzle>
+		<Question>A list has the elements [2, 4, 6, 8]. You map each element x to x × x. What is the resulting list?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>[4, 16, 36, 64]</CorrectAnswer>
+		<WrongAnswer>[4, 8, 12, 16]</WrongAnswer>
+		<WrongAnswer>[2, 4, 6, 8]</WrongAnswer>
+		<WrongAnswer>[3, 5, 7, 9]</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 19 -->
+	<Puzzle>
+		<Question>What do we call a situation where two or more threads are blocked forever, each waiting for the other to release a resource?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Deadlock</CorrectAnswer>
+		<WrongAnswer>Starvation</WrongAnswer>
+		<WrongAnswer>Race condition</WrongAnswer>
+		<WrongAnswer>Dead end</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 20 -->
+	<Puzzle>
+		<Question>In binary, 1010 represents 10 in decimal. What decimal number does 1101 represent?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>13</CorrectAnswer>
+		<WrongAnswer>11</WrongAnswer>
+		<WrongAnswer>12</WrongAnswer>
+		<WrongAnswer>14</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 21 -->
+	<Puzzle>
+		<Question>I am always hungry, I eat bits, and I shift things left and right. In programming and hardware, what am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Bitwise shift operation</CorrectAnswer>
+		<WrongAnswer>Memory leak</WrongAnswer>
+		<WrongAnswer>Garbage collector</WrongAnswer>
+		<WrongAnswer>Compiler</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 22 -->
+	<Puzzle>
+		<Question>You roll two fair six-sided dice. What is the probability that the sum is 7?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>1/6</CorrectAnswer>
+		<WrongAnswer>1/12</WrongAnswer>
+		<WrongAnswer>1/3</WrongAnswer>
+		<WrongAnswer>1/4</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 23 -->
+	<Puzzle>
+		<Question>What number do you get if you add all the numbers from 1 to 100 inclusive?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>5050</CorrectAnswer>
+		<WrongAnswer>5000</WrongAnswer>
+		<WrongAnswer>5150</WrongAnswer>
+		<WrongAnswer>4950</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 24 -->
+	<Puzzle>
+		<Question>You see the code: if (a &gt; b &amp;&amp; b &gt; c) { ... }. Which of these must be true if the condition is true?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>a is greater than both b and c</CorrectAnswer>
+		<WrongAnswer>a is equal to c</WrongAnswer>
+		<WrongAnswer>b is the largest</WrongAnswer>
+		<WrongAnswer>c is the largest</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 25 -->
+	<Puzzle>
+		<Question>Which data structure follows the Last-In, First-Out (LIFO) principle?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Stack</CorrectAnswer>
+		<WrongAnswer>Queue</WrongAnswer>
+		<WrongAnswer>Array</WrongAnswer>
+		<WrongAnswer>Hash map</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 26 -->
+	<Puzzle>
+		<Question>Which data structure follows the First-In, First-Out (FIFO) principle?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Queue</CorrectAnswer>
+		<WrongAnswer>Stack</WrongAnswer>
+		<WrongAnswer>Tree</WrongAnswer>
+		<WrongAnswer>Graph</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 27 -->
+	<Puzzle>
+		<Question>I move only forward, not backward. I point to the next, but never to the past. In programming, what structure am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Singly linked list</CorrectAnswer>
+		<WrongAnswer>Array</WrongAnswer>
+		<WrongAnswer>Stack</WrongAnswer>
+		<WrongAnswer>Binary tree</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 28 -->
+	<Puzzle>
+		<Question>There are 30 students in a class. Each student shakes hands with every other student exactly once. How many handshakes occur?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>435</CorrectAnswer>
+		<WrongAnswer>900</WrongAnswer>
+		<WrongAnswer>870</WrongAnswer>
+		<WrongAnswer>465</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 29 -->
+	<Puzzle>
+		<Question>A password consists of 3 lowercase letters, each can be from a to z. How many possible passwords are there, ignoring dictionary words?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>26^3</CorrectAnswer>
+		<WrongAnswer>26^2</WrongAnswer>
+		<WrongAnswer>3 × 26</WrongAnswer>
+		<WrongAnswer>2^26</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 30 -->
+	<Puzzle>
+		<Question>In many languages, what does the operator &quot;!&quot; represent when applied to a boolean expression?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Logical NOT</CorrectAnswer>
+		<WrongAnswer>Logical AND</WrongAnswer>
+		<WrongAnswer>Logical OR</WrongAnswer>
+		<WrongAnswer>Equality</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 31 -->
+	<Puzzle>
+		<Question>I start full, then get empty, yet I hold code instead of water. I help you undo mistakes. What am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Version control history</CorrectAnswer>
+		<WrongAnswer>Clipboard</WrongAnswer>
+		<WrongAnswer>Trash bin</WrongAnswer>
+		<WrongAnswer>Cache</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 32 -->
+	<Puzzle>
+		<Question>What is the smallest positive integer that is divisible by 2, 3, and 5?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>30</CorrectAnswer>
+		<WrongAnswer>10</WrongAnswer>
+		<WrongAnswer>15</WrongAnswer>
+		<WrongAnswer>60</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 33 -->
+	<Puzzle>
+		<Question>You enter a room and see a computer, a router, and a switch. Only one of them is off. The lights are off, but the fans are spinning. Which one is most likely off?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>The switch</CorrectAnswer>
+		<WrongAnswer>The computer</WrongAnswer>
+		<WrongAnswer>The router</WrongAnswer>
+		<WrongAnswer>All are off</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 34 -->
+	<Puzzle>
+		<Question>A function f(n) runs in O(2^n) time. A function g(n) runs in O(n^3) time. For very large n, which is asymptotically faster?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>g(n)</CorrectAnswer>
+		<WrongAnswer>f(n)</WrongAnswer>
+		<WrongAnswer>They are equal</WrongAnswer>
+		<WrongAnswer>Depends on machine speed</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 35 -->
+	<Puzzle>
+		<Question>You have a sorted array and want to frequently insert new elements in the middle. Which structure is generally more efficient for many insertions?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Linked list</CorrectAnswer>
+		<WrongAnswer>Array</WrongAnswer>
+		<WrongAnswer>Hash map</WrongAnswer>
+		<WrongAnswer>Stack</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 36 -->
+	<Puzzle>
+		<Question>I am a path that visits every vertex exactly once in a graph. What am I called?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Hamiltonian path</CorrectAnswer>
+		<WrongAnswer>Eulerian path</WrongAnswer>
+		<WrongAnswer>Spanning tree</WrongAnswer>
+		<WrongAnswer>Shortest path</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 37 -->
+	<Puzzle>
+		<Question>I am a path that uses every edge exactly once in a graph. What am I called?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Eulerian path</CorrectAnswer>
+		<WrongAnswer>Hamiltonian path</WrongAnswer>
+		<WrongAnswer>Minimum path</WrongAnswer>
+		<WrongAnswer>Balanced path</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 38 -->
+	<Puzzle>
+		<Question>Which of these search algorithms guarantees the shortest path in an unweighted graph?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Breadth-first search</CorrectAnswer>
+		<WrongAnswer>Depth-first search</WrongAnswer>
+		<WrongAnswer>Greedy search</WrongAnswer>
+		<WrongAnswer>Random search</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 39 -->
+	<Puzzle>
+		<Question>In many languages, what keyword is used to create a new instance of a class?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>new</CorrectAnswer>
+		<WrongAnswer>create</WrongAnswer>
+		<WrongAnswer>instance</WrongAnswer>
+		<WrongAnswer>spawn</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 40 -->
+	<Puzzle>
+		<Question>You have a 10-element array. How many valid indices are there in a 0-based indexing system?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>10</CorrectAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>11</WrongAnswer>
+		<WrongAnswer>Infinite</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 41 -->
+	<Puzzle>
+		<Question>If 3^x = 81, what is x?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>4</CorrectAnswer>
+		<WrongAnswer>3</WrongAnswer>
+		<WrongAnswer>5</WrongAnswer>
+		<WrongAnswer>6</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 42 -->
+	<Puzzle>
+		<Question>In a hash table with a good hash function and low load factor, what is the average-case complexity of lookup?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>O(1)</CorrectAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 43 -->
+	<Puzzle>
+		<Question>In many languages, what is the typical result of dividing an integer by zero at runtime?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Runtime error or exception</CorrectAnswer>
+		<WrongAnswer>Zero</WrongAnswer>
+		<WrongAnswer>Infinity</WrongAnswer>
+		<WrongAnswer>The original number</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 44 -->
+	<Puzzle>
+		<Question>I compress information but may lose some details. In computing, what kind of compression am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Lossy compression</CorrectAnswer>
+		<WrongAnswer>Lossless compression</WrongAnswer>
+		<WrongAnswer>Run-length encoding</WrongAnswer>
+		<WrongAnswer>Hashing</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 45 -->
+	<Puzzle>
+		<Question>I compress information without losing any data. In computing, what kind of compression am I?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>Lossless compression</CorrectAnswer>
+		<WrongAnswer>Lossy compression</WrongAnswer>
+		<WrongAnswer>Hashing</WrongAnswer>
+		<WrongAnswer>Sampling</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 46 -->
+	<Puzzle>
+		<Question>What is the derivative of x² with respect to x?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>2x</CorrectAnswer>
+		<WrongAnswer>x</WrongAnswer>
+		<WrongAnswer>x²</WrongAnswer>
+		<WrongAnswer>1</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 47 -->
+	<Puzzle>
+		<Question>What is the integral of 2x with respect to x (ignoring the constant of integration)?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>x²</CorrectAnswer>
+		<WrongAnswer>2x²</WrongAnswer>
+		<WrongAnswer>2x</WrongAnswer>
+		<WrongAnswer>x</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 48 -->
+	<Puzzle>
+		<Question>If a function has time complexity O(n³), and you double the input size, by what factor does the runtime grow approximately?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>8 times</CorrectAnswer>
+		<WrongAnswer>2 times</WrongAnswer>
+		<WrongAnswer>4 times</WrongAnswer>
+		<WrongAnswer>6 times</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 49 -->
+	<Puzzle>
+		<Question>You sort a list of n items using an algorithm with average complexity O(n log n). If you double n, the time grows by approximately what factor?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>About a bit more than 2</CorrectAnswer>
+		<WrongAnswer>Exactly 2</WrongAnswer>
+		<WrongAnswer>Exactly 4</WrongAnswer>
+		<WrongAnswer>Exactly 8</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 50 -->
+	<Puzzle>
+		<Question>In many languages, what keyword is used to handle an error or exception that might occur in a block of code?</Question>
+		<Difficulty>3</Difficulty>
+		<CorrectAnswer>try/catch</CorrectAnswer>
+		<WrongAnswer>if/else</WrongAnswer>
+		<WrongAnswer>throw</WrongAnswer>
+		<WrongAnswer>goto</WrongAnswer>
+	</Puzzle>
+	<!-- Puzzle 1 -->
+	<Puzzle>
+		<Question>I am a 2-digit prime number. If you reverse my digits, you get a different prime. Their sum is 88. What number am I?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>41</CorrectAnswer>
+		<WrongAnswer>43</WrongAnswer>
+		<WrongAnswer>47</WrongAnswer>
+		<WrongAnswer>53</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 2 -->
+	<Puzzle>
+		<Question>You have a sorted array of 1,024 distinct numbers. In the worst case of binary search, how many comparisons do you need at most (approximate to the nearest whole number)?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>10</CorrectAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>8</WrongAnswer>
+		<WrongAnswer>11</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 3 -->
+	<Puzzle>
+		<Question>I am the smallest positive integer that leaves remainder 1 when divided by 2, 3, and 4. What number am I?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>13</CorrectAnswer>
+		<WrongAnswer>7</WrongAnswer>
+		<WrongAnswer>25</WrongAnswer>
+		<WrongAnswer>37</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 4 -->
+	<Puzzle>
+		<Question>In a programming language with 32-bit signed integers, what is the usual maximum value representable (in decimal)?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>2147483647</CorrectAnswer>
+		<WrongAnswer>2147483648</WrongAnswer>
+		<WrongAnswer>4294967295</WrongAnswer>
+		<WrongAnswer>1073741823</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 5 -->
+	<Puzzle>
+		<Question>In many languages, what is the time complexity of inserting an element at the front of a singly linked list when you already have the head pointer?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>O(1)</CorrectAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 6 -->
+	<Puzzle>
+		<Question>If 2^a = 32 and 2^b = 8, what is 2^(a + b)?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>256</CorrectAnswer>
+		<WrongAnswer>128</WrongAnswer>
+		<WrongAnswer>64</WrongAnswer>
+		<WrongAnswer>512</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 7 -->
+	<Puzzle>
+		<Question>In an undirected simple graph, what is the maximum number of edges in a graph with 10 vertices?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>45</CorrectAnswer>
+		<WrongAnswer>55</WrongAnswer>
+		<WrongAnswer>90</WrongAnswer>
+		<WrongAnswer>40</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 8 -->
+	<Puzzle>
+		<Question>I am the complexity of the naive recursive Fibonacci implementation. What Big-O time complexity best describes me?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>O(2^n)</CorrectAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n^2)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 9 -->
+	<Puzzle>
+		<Question>You push 3 values onto a stack in this order: 10, then 20, then 30. You pop once and then peek. What value do you see?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>20</CorrectAnswer>
+		<WrongAnswer>10</WrongAnswer>
+		<WrongAnswer>30</WrongAnswer>
+		<WrongAnswer>0</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 10 -->
+	<Puzzle>
+		<Question>A number is divisible by 11 if the alternating sum of its digits is divisible by 11. Is 50677 divisible by 11?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Yes</CorrectAnswer>
+		<WrongAnswer>No</WrongAnswer>
+		<WrongAnswer>Only by 11 squared</WrongAnswer>
+		<WrongAnswer>Only by 11 cubed</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 11 -->
+	<Puzzle>
+		<Question>You have a 3-level nested loop; each loop runs from 1 to n. Ignoring the body, how many total iterations run?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>n^3</CorrectAnswer>
+		<WrongAnswer>3n</WrongAnswer>
+		<WrongAnswer>n^2</WrongAnswer>
+		<WrongAnswer>n log n</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 12 -->
+	<Puzzle>
+		<Question>I am a path in a graph that starts and ends at the same vertex and uses every edge exactly once. What am I?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Eulerian circuit</CorrectAnswer>
+		<WrongAnswer>Hamiltonian cycle</WrongAnswer>
+		<WrongAnswer>Shortest cycle</WrongAnswer>
+		<WrongAnswer>Spanning tree</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 13 -->
+	<Puzzle>
+		<Question>If f(n) = 3n^2 + 10n + 7, which Big-O notation best describes its asymptotic growth?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>O(n^2)</CorrectAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n^3)</WrongAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 14 -->
+	<Puzzle>
+		<Question>I am a 2-digit number. When you square me, the result ends with the same two digits. What number am I?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>25</CorrectAnswer>
+		<WrongAnswer>26</WrongAnswer>
+		<WrongAnswer>75</WrongAnswer>
+		<WrongAnswer>50</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 15 -->
+	<Puzzle>
+		<Question>In many languages, what is the typical worst-case time complexity of quicksort on an already sorted array if you always choose the first element as pivot?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>O(n^2)</CorrectAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 16 -->
+	<Puzzle>
+		<Question>A function calls itself twice for each call, and stops at depth k. Roughly how many calls are made?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>About 2^k</CorrectAnswer>
+		<WrongAnswer>About k</WrongAnswer>
+		<WrongAnswer>About k^2</WrongAnswer>
+		<WrongAnswer>About log k</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 17 -->
+	<Puzzle>
+		<Question>You are given an array of length n and you perform a merge sort. How many levels of merging (approximately) will there be?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>About log₂ n</CorrectAnswer>
+		<WrongAnswer>About n</WrongAnswer>
+		<WrongAnswer>About n²</WrongAnswer>
+		<WrongAnswer>About √n</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 18 -->
+	<Puzzle>
+		<Question>In a balanced binary search tree with n nodes, what is the worst-case time complexity for inserting a new key?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>O(log n)</CorrectAnswer>
+		<WrongAnswer>O(1)</WrongAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 19 -->
+	<Puzzle>
+		<Question>I am a 3-digit number. The sum of my digits is 15, and all my digits are odd. I am divisible by 5 and greater than 500. What number am I?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>555</CorrectAnswer>
+		<WrongAnswer>575</WrongAnswer>
+		<WrongAnswer>535</WrongAnswer>
+		<WrongAnswer>595</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 20 -->
+	<Puzzle>
+		<Question>You perform a binary search on a sorted list that may contain duplicates. What can you guarantee about the position returned for a value?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>It is some valid index where the value appears</CorrectAnswer>
+		<WrongAnswer>It is always the first occurrence</WrongAnswer>
+		<WrongAnswer>It is always the last occurrence</WrongAnswer>
+		<WrongAnswer>It is always the median element</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 21 -->
+	<Puzzle>
+		<Question>You have n distinct objects and want to arrange them in a line. How many permutations are there?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>n!</CorrectAnswer>
+		<WrongAnswer>n</WrongAnswer>
+		<WrongAnswer>2^n</WrongAnswer>
+		<WrongAnswer>n^2</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 22 -->
+	<Puzzle>
+		<Question>An algorithm runs in time T(n) = T(n/2) + O(1). Which Big-O describes T(n)?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>O(log n)</CorrectAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+		<WrongAnswer>O(1)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 23 -->
+	<Puzzle>
+		<Question>You have 5 distinct books and 2 shelves. Each book must go on exactly one shelf. How many different distributions are possible (order on a shelf does not matter)?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>32</CorrectAnswer>
+		<WrongAnswer>10</WrongAnswer>
+		<WrongAnswer>25</WrongAnswer>
+		<WrongAnswer>64</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 24 -->
+	<Puzzle>
+		<Question>In many languages, what is the name of a function that is defined inside another function and can access its variables?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Closure</CorrectAnswer>
+		<WrongAnswer>Constructor</WrongAnswer>
+		<WrongAnswer>Destructor</WrongAnswer>
+		<WrongAnswer>Template</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 25 -->
+	<Puzzle>
+		<Question>If the time complexity of an algorithm is O(n!) and n increases from 5 to 6, by what factor does the dominant term increase?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>6</CorrectAnswer>
+		<WrongAnswer>2</WrongAnswer>
+		<WrongAnswer>4</WrongAnswer>
+		<WrongAnswer>10</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 26 -->
+	<Puzzle>
+		<Question>You hash 1,000 keys into 10,000 buckets with a good uniform hash. What is the expected average number of keys per bucket?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>0.1</CorrectAnswer>
+		<WrongAnswer>1</WrongAnswer>
+		<WrongAnswer>10</WrongAnswer>
+		<WrongAnswer>100</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 27 -->
+	<Puzzle>
+		<Question>I am a real number that is equal to my own square. Which of these could I be?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>1</CorrectAnswer>
+		<WrongAnswer>2</WrongAnswer>
+		<WrongAnswer>3</WrongAnswer>
+		<WrongAnswer>-2</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 28 -->
+	<Puzzle>
+		<Question>In a directed acyclic graph (DAG), what traversal or ordering lists vertices so that every edge goes from an earlier vertex to a later one?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Topological order</CorrectAnswer>
+		<WrongAnswer>Breadth-first order</WrongAnswer>
+		<WrongAnswer>Depth-first preorder</WrongAnswer>
+		<WrongAnswer>Level order</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 29 -->
+	<Puzzle>
+		<Question>A palindrome is a string that reads the same forwards and backwards. Which of these is a binary palindrome?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>10101</CorrectAnswer>
+		<WrongAnswer>11010</WrongAnswer>
+		<WrongAnswer>10110</WrongAnswer>
+		<WrongAnswer>10001</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 30 -->
+	<Puzzle>
+		<Question>In many languages, what is the usual size (in bits) of a standard IPv4 address?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>32</CorrectAnswer>
+		<WrongAnswer>16</WrongAnswer>
+		<WrongAnswer>64</WrongAnswer>
+		<WrongAnswer>128</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 31 -->
+	<Puzzle>
+		<Question>You roll two fair six-sided dice. What is the probability that the product of the two numbers is even?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>3/4</CorrectAnswer>
+		<WrongAnswer>1/2</WrongAnswer>
+		<WrongAnswer>2/3</WrongAnswer>
+		<WrongAnswer>5/6</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 32 -->
+	<Puzzle>
+		<Question>An array has 256 elements. You use binary search to find a value. What is the maximum number of comparisons needed in the worst case?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>8</CorrectAnswer>
+		<WrongAnswer>7</WrongAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>16</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 33 -->
+	<Puzzle>
+		<Question>You have a full binary tree of height h (root at height 0). How many leaves does it have?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>2^h</CorrectAnswer>
+		<WrongAnswer>h</WrongAnswer>
+		<WrongAnswer>2h</WrongAnswer>
+		<WrongAnswer>2^(h - 1)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 34 -->
+	<Puzzle>
+		<Question>In many languages, what is the default time complexity to access an element by index in a dynamic array (like std::vector or ArrayList)?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>O(1)</CorrectAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 35 -->
+	<Puzzle>
+		<Question>You have 10 bits. How many different distinct bit patterns can you represent?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>1024</CorrectAnswer>
+		<WrongAnswer>1000</WrongAnswer>
+		<WrongAnswer>512</WrongAnswer>
+		<WrongAnswer>2048</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 36 -->
+	<Puzzle>
+		<Question>Which of these can cause a race condition in concurrent programming?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Two threads writing to the same variable without synchronization</CorrectAnswer>
+		<WrongAnswer>Two threads using only read-only data</WrongAnswer>
+		<WrongAnswer>A single-threaded program</WrongAnswer>
+		<WrongAnswer>A constant expression</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 37 -->
+	<Puzzle>
+		<Question>In many languages, which type of error is detected at compile time, before the program runs?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Syntax error</CorrectAnswer>
+		<WrongAnswer>Null pointer dereference</WrongAnswer>
+		<WrongAnswer>Divide by zero</WrongAnswer>
+		<WrongAnswer>Out-of-memory</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 38 -->
+	<Puzzle>
+		<Question>I am the smallest positive integer that is divisible by 1, 2, 3, and 4. What number am I?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>12</CorrectAnswer>
+		<WrongAnswer>6</WrongAnswer>
+		<WrongAnswer>8</WrongAnswer>
+		<WrongAnswer>16</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 39 -->
+	<Puzzle>
+		<Question>You measure algorithmic complexity using Big-O notation. What does it ignore?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Constant factors and lower-order terms</CorrectAnswer>
+		<WrongAnswer>Input size</WrongAnswer>
+		<WrongAnswer>Worst-case behavior</WrongAnswer>
+		<WrongAnswer>Asymptotic growth</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 40 -->
+	<Puzzle>
+		<Question>You want to ensure that a function can accept any type but still be type-checked at compile time. Which language feature is typically used?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Generics or templates</CorrectAnswer>
+		<WrongAnswer>Global variables</WrongAnswer>
+		<WrongAnswer>Preprocessor macros</WrongAnswer>
+		<WrongAnswer>Runtime casting</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 41 -->
+	<Puzzle>
+		<Question>You have three flags: debug, verbose, and trace. You pack them into bits of a single byte. How many different combinations of these three flags are possible?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>8</CorrectAnswer>
+		<WrongAnswer>3</WrongAnswer>
+		<WrongAnswer>6</WrongAnswer>
+		<WrongAnswer>16</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 42 -->
+	<Puzzle>
+		<Question>A 4-digit PIN code uses digits 0–9 and digits may repeat. How many possible PINs are there?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>10000</CorrectAnswer>
+		<WrongAnswer>9999</WrongAnswer>
+		<WrongAnswer>4096</WrongAnswer>
+		<WrongAnswer>5040</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 43 -->
+	<Puzzle>
+		<Question>In many languages, which logical operator short-circuits and will not evaluate the second operand if the first operand is false?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>&amp;&amp;</CorrectAnswer>
+		<WrongAnswer>||</WrongAnswer>
+		<WrongAnswer>!</WrongAnswer>
+		<WrongAnswer>==</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 44 -->
+	<Puzzle>
+		<Question>In floating-point arithmetic, which of these values cannot be represented exactly in binary IEEE 754 single precision?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>0.1</CorrectAnswer>
+		<WrongAnswer>0.5</WrongAnswer>
+		<WrongAnswer>0.25</WrongAnswer>
+		<WrongAnswer>1.0</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 45 -->
+	<Puzzle>
+		<Question>You have a 3x3 grid and want to place 3 indistinguishable tokens in different cells. How many ways can you choose the cells?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>84</CorrectAnswer>
+		<WrongAnswer>9</WrongAnswer>
+		<WrongAnswer>27</WrongAnswer>
+		<WrongAnswer>72</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 46 -->
+	<Puzzle>
+		<Question>In many languages, what is the effect of using the modulo operator x % n when x is a non-negative integer?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Gives the remainder of dividing x by n</CorrectAnswer>
+		<WrongAnswer>Gives the quotient of x divided by n</WrongAnswer>
+		<WrongAnswer>Rounds x to the nearest multiple of n</WrongAnswer>
+		<WrongAnswer>Always returns a value between -n and n</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 47 -->
+	<Puzzle>
+		<Question>I am a special kind of function that does not change the data I transform: f(f(x)) = x for all x in my domain. What am I?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>Involution</CorrectAnswer>
+		<WrongAnswer>Injection</WrongAnswer>
+		<WrongAnswer>Surjection</WrongAnswer>
+		<WrongAnswer>Permutation</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 48 -->
+	<Puzzle>
+		<Question>You have 6 distinct vertices and want to form a simple cycle that uses all of them exactly once and returns to the start. How many vertices are in this cycle?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>6</CorrectAnswer>
+		<WrongAnswer>5</WrongAnswer>
+		<WrongAnswer>7</WrongAnswer>
+		<WrongAnswer>3</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 49 -->
+	<Puzzle>
+		<Question>In many languages, what feature allows you to write a function that takes another function as an argument?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>First-class functions</CorrectAnswer>
+		<WrongAnswer>Static typing</WrongAnswer>
+		<WrongAnswer>Inheritance</WrongAnswer>
+		<WrongAnswer>Encapsulation</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 50 -->
+	<Puzzle>
+		<Question>An algorithm runs in O(log n) time. You increase the input size from 1,000 to 1,000,000. Which of these best describes the change in running time?</Question>
+		<Difficulty>4</Difficulty>
+		<CorrectAnswer>It increases by a constant factor, about log(1,000,000) / log(1,000)</CorrectAnswer>
+		<WrongAnswer>It increases 1,000 times</WrongAnswer>
+		<WrongAnswer>It increases 1,000,000 times</WrongAnswer>
+		<WrongAnswer>It stays exactly the same</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 1 -->
+	<Puzzle>
+		<Question>I am the smallest positive integer that is divisible by 7, 8, and 9. What number am I?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>504</CorrectAnswer>
+		<WrongAnswer>252</WrongAnswer>
+		<WrongAnswer>360</WrongAnswer>
+		<WrongAnswer>720</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 2 -->
+	<Puzzle>
+		<Question>You have a function with time complexity T(n) = 2T(n/2) + n. Which Big-O best describes T(n)?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(n log n)</CorrectAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+		<WrongAnswer>O(n²)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 3 -->
+	<Puzzle>
+		<Question>You toss a fair coin 4 times. What is the probability of getting exactly 2 heads?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>6/16</CorrectAnswer>
+		<WrongAnswer>4/16</WrongAnswer>
+		<WrongAnswer>8/16</WrongAnswer>
+		<WrongAnswer>3/16</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 4 -->
+	<Puzzle>
+		<Question>In complexity theory, which of these problems is known to be NP-complete (under standard assumptions)?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Boolean satisfiability (SAT)</CorrectAnswer>
+		<WrongAnswer>Sorting n numbers</WrongAnswer>
+		<WrongAnswer>Primality testing</WrongAnswer>
+		<WrongAnswer>Matrix multiplication</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 5 -->
+	<Puzzle>
+		<Question>You have a graph with n vertices and every pair of distinct vertices is connected by an edge. What is this graph called?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Complete graph</CorrectAnswer>
+		<WrongAnswer>Tree</WrongAnswer>
+		<WrongAnswer>Bipartite graph</WrongAnswer>
+		<WrongAnswer>Planar graph</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 6 -->
+	<Puzzle>
+		<Question>In a complete graph with 6 vertices, how many distinct simple cycles of length 3 (triangles) exist?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>20</CorrectAnswer>
+		<WrongAnswer>10</WrongAnswer>
+		<WrongAnswer>15</WrongAnswer>
+		<WrongAnswer>30</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 7 -->
+	<Puzzle>
+		<Question>A 64-bit unsigned integer type can represent how many distinct values?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>2^64</CorrectAnswer>
+		<WrongAnswer>2^63</WrongAnswer>
+		<WrongAnswer>2^32</WrongAnswer>
+		<WrongAnswer>2^128</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 8 -->
+	<Puzzle>
+		<Question>You have a dynamic array that doubles its capacity when full. Amortized over many insertions at the end, what is the average time per insertion?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(1)</CorrectAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 9 -->
+	<Puzzle>
+		<Question>Which of these is a necessary condition for a connected undirected graph to have an Eulerian circuit?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Every vertex has even degree</CorrectAnswer>
+		<WrongAnswer>Every vertex has odd degree</WrongAnswer>
+		<WrongAnswer>Graph has at least one cycle</WrongAnswer>
+		<WrongAnswer>Graph is a tree</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 10 -->
+	<Puzzle>
+		<Question>You are given two relatively prime integers a and b. What is the greatest common divisor gcd(a, b)?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>1</CorrectAnswer>
+		<WrongAnswer>0</WrongAnswer>
+		<WrongAnswer>a</WrongAnswer>
+		<WrongAnswer>b</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 11 -->
+	<Puzzle>
+		<Question>In many languages, a hash map (dictionary) with a good hash function typically has what average-case complexity for insert and lookup?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(1)</CorrectAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+		<WrongAnswer>O(n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 12 -->
+	<Puzzle>
+		<Question>You multiply two n × n matrices using the naive algorithm. How many scalar multiplications are required (in terms of n)?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>n³</CorrectAnswer>
+		<WrongAnswer>n²</WrongAnswer>
+		<WrongAnswer>n log n</WrongAnswer>
+		<WrongAnswer>2^n</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 13 -->
+	<Puzzle>
+		<Question>Which of these sequences is defined by the recurrence F(n) = F(n-1) + F(n-2), with F(0) = 0 and F(1) = 1?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Fibonacci numbers</CorrectAnswer>
+		<WrongAnswer>Factorials</WrongAnswer>
+		<WrongAnswer>Triangular numbers</WrongAnswer>
+		<WrongAnswer>Prime numbers</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 14 -->
+	<Puzzle>
+		<Question>You need a data structure that supports extracting the minimum element quickly and also supports insert in O(log n). Which should you choose?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Binary heap</CorrectAnswer>
+		<WrongAnswer>Stack</WrongAnswer>
+		<WrongAnswer>Queue</WrongAnswer>
+		<WrongAnswer>Hash table</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 15 -->
+	<Puzzle>
+		<Question>Which Big-O notation describes the worst-case time complexity of depth-first search on a graph with V vertices and E edges?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(V + E)</CorrectAnswer>
+		<WrongAnswer>O(V²)</WrongAnswer>
+		<WrongAnswer>O(E log V)</WrongAnswer>
+		<WrongAnswer>O(VE)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 16 -->
+	<Puzzle>
+		<Question>Which of these sorting algorithms is guaranteed to be stable in its standard form?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Merge sort</CorrectAnswer>
+		<WrongAnswer>Selection sort</WrongAnswer>
+		<WrongAnswer>Heap sort</WrongAnswer>
+		<WrongAnswer>Quick sort (naive pivot)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 17 -->
+	<Puzzle>
+		<Question>You have 10 distinct items and want to choose 3 of them without order and without repetition. How many choices are there?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>120</CorrectAnswer>
+		<WrongAnswer>720</WrongAnswer>
+		<WrongAnswer>30</WrongAnswer>
+		<WrongAnswer>100</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 18 -->
+	<Puzzle>
+		<Question>If p is a prime number greater than 2, which of these statements is always true?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>p is odd</CorrectAnswer>
+		<WrongAnswer>p is even</WrongAnswer>
+		<WrongAnswer>p is divisible by 3</WrongAnswer>
+		<WrongAnswer>p is a multiple of 4</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 19 -->
+	<Puzzle>
+		<Question>In modular arithmetic, what is 7 × 8 (mod 5)?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>1</CorrectAnswer>
+		<WrongAnswer>0</WrongAnswer>
+		<WrongAnswer>2</WrongAnswer>
+		<WrongAnswer>3</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 20 -->
+	<Puzzle>
+		<Question>In many languages, what is a closure?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>A function plus its captured environment</CorrectAnswer>
+		<WrongAnswer>A function that never returns</WrongAnswer>
+		<WrongAnswer>A function that closes a file</WrongAnswer>
+		<WrongAnswer>A function that exits the program</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 21 -->
+	<Puzzle>
+		<Question>You run Dijkstra&apos;s algorithm on a graph with V vertices and E edges using a binary heap. What is the typical time complexity?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(E log V)</CorrectAnswer>
+		<WrongAnswer>O(V²)</WrongAnswer>
+		<WrongAnswer>O(E + V)</WrongAnswer>
+		<WrongAnswer>O(E²)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 22 -->
+	<Puzzle>
+		<Question>Which of these numbers is both a square and a cube of integers?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>64</CorrectAnswer>
+		<WrongAnswer>36</WrongAnswer>
+		<WrongAnswer>81</WrongAnswer>
+		<WrongAnswer>125</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 23 -->
+	<Puzzle>
+		<Question>You have an infinite geometric series with first term 1 and common ratio 1/2. What is its sum?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>2</CorrectAnswer>
+		<WrongAnswer>1</WrongAnswer>
+		<WrongAnswer>3</WrongAnswer>
+		<WrongAnswer>Infinity</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 24 -->
+	<Puzzle>
+		<Question>In many statically typed languages, what does type inference do?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Automatically deduces variable types from usage</CorrectAnswer>
+		<WrongAnswer>Converts all types to strings</WrongAnswer>
+		<WrongAnswer>Removes all type checks</WrongAnswer>
+		<WrongAnswer>Converts code to assembly</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 25 -->
+	<Puzzle>
+		<Question>A 128-bit key is used in a symmetric cipher. Roughly how many possible keys are there?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>2^128</CorrectAnswer>
+		<WrongAnswer>128!</WrongAnswer>
+		<WrongAnswer>128²</WrongAnswer>
+		<WrongAnswer>2^64</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 26 -->
+	<Puzzle>
+		<Question>Which of these is an invariant in a correct binary search tree implementation?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Left subtree keys &lt; node key &lt; right subtree keys</CorrectAnswer>
+		<WrongAnswer>All keys equal in left and right subtrees</WrongAnswer>
+		<WrongAnswer>Every node has exactly two children</WrongAnswer>
+		<WrongAnswer>All leaves are at the same depth</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 27 -->
+	<Puzzle>
+		<Question>You have N people in a room, each shaking hands with every other person exactly once. How many handshakes occur?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>N(N - 1)/2</CorrectAnswer>
+		<WrongAnswer>N²</WrongAnswer>
+		<WrongAnswer>N/2</WrongAnswer>
+		<WrongAnswer>2N</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 28 -->
+	<Puzzle>
+		<Question>In many languages, what is tail recursion optimization (TCO) intended to do?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Reuse the current stack frame for tail calls</CorrectAnswer>
+		<WrongAnswer>Unroll all loops into recursion</WrongAnswer>
+		<WrongAnswer>Inline every function call</WrongAnswer>
+		<WrongAnswer>Remove all recursive functions</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 29 -->
+	<Puzzle>
+		<Question>Which of these logical formulas is a tautology (true for all boolean values of A)?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>A || !A</CorrectAnswer>
+		<WrongAnswer>A &amp;&amp; !A</WrongAnswer>
+		<WrongAnswer>A</WrongAnswer>
+		<WrongAnswer>!A</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 30 -->
+	<Puzzle>
+		<Question>In modular arithmetic, what is the multiplicative inverse of 3 modulo 11?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>4</CorrectAnswer>
+		<WrongAnswer>2</WrongAnswer>
+		<WrongAnswer>5</WrongAnswer>
+		<WrongAnswer>7</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 31 -->
+	<Puzzle>
+		<Question>You have a 5-character password using only lowercase letters a–z. How many possible passwords exist?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>26^5</CorrectAnswer>
+		<WrongAnswer>5 × 26</WrongAnswer>
+		<WrongAnswer>26!</WrongAnswer>
+		<WrongAnswer>2^26</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 32 -->
+	<Puzzle>
+		<Question>Which of these is a necessary condition for a matrix to be invertible over the reals?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Its determinant is non-zero</CorrectAnswer>
+		<WrongAnswer>All entries are positive</WrongAnswer>
+		<WrongAnswer>All diagonal entries are 1</WrongAnswer>
+		<WrongAnswer>Matrix is symmetric</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 33 -->
+	<Puzzle>
+		<Question>In a red-black tree, which of these properties must always hold?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>No red node has a red child</CorrectAnswer>
+		<WrongAnswer>All leaves are red</WrongAnswer>
+		<WrongAnswer>All internal nodes are black</WrongAnswer>
+		<WrongAnswer>Root must be red</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 34 -->
+	<Puzzle>
+		<Question>
+			What is the Big-O complexity of the following code?
+			for (i = 1; i &lt;= n; i *= 2) {
+			for (j = 1; j &lt;= i; j++) { work(); }
+			}
+		</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(n)</CorrectAnswer>
+		<WrongAnswer>O(log n)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+		<WrongAnswer>O(n²)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 35 -->
+	<Puzzle>
+		<Question>Which of these is the correct formula for the sum of the first n positive integers?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>n(n + 1)/2</CorrectAnswer>
+		<WrongAnswer>n²</WrongAnswer>
+		<WrongAnswer>n(n - 1)/2</WrongAnswer>
+		<WrongAnswer>2n</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 36 -->
+	<Puzzle>
+		<Question>In many languages, what does it mean for a type system to be sound?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Well-typed programs do not go wrong (no invalid operations)</CorrectAnswer>
+		<WrongAnswer>Every program can be typed</WrongAnswer>
+		<WrongAnswer>All types are checked at runtime only</WrongAnswer>
+		<WrongAnswer>Only integers are allowed</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 37 -->
+	<Puzzle>
+		<Question>Which of these numbers is prime?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>97</CorrectAnswer>
+		<WrongAnswer>91</WrongAnswer>
+		<WrongAnswer>99</WrongAnswer>
+		<WrongAnswer>121</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 38 -->
+	<Puzzle>
+		<Question>In a probability space, the sum of probabilities of all mutually exclusive outcomes of a single experiment is always equal to what?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>1</CorrectAnswer>
+		<WrongAnswer>0</WrongAnswer>
+		<WrongAnswer>Depends on experiment</WrongAnswer>
+		<WrongAnswer>Infinity</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 39 -->
+	<Puzzle>
+		<Question>For a continuous function f(x), which condition is sufficient for f(x) to have at least one root between a and b?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>f(a) and f(b) have opposite signs</CorrectAnswer>
+		<WrongAnswer>f(a) and f(b) are both positive</WrongAnswer>
+		<WrongAnswer>f(a) = f(b)</WrongAnswer>
+		<WrongAnswer>f(a) = 0</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 40 -->
+	<Puzzle>
+		<Question>In many languages, what is the main difference between pass-by-value and pass-by-reference?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Pass-by-reference can modify the original variable</CorrectAnswer>
+		<WrongAnswer>Pass-by-value is slower</WrongAnswer>
+		<WrongAnswer>Pass-by-reference copies the value</WrongAnswer>
+		<WrongAnswer>They are identical</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 41 -->
+	<Puzzle>
+		<Question>Which of these is a characteristic of a pure function in functional programming?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>No side effects and same output for same input</CorrectAnswer>
+		<WrongAnswer>Can modify global state</WrongAnswer>
+		<WrongAnswer>Random output each call</WrongAnswer>
+		<WrongAnswer>Depends on system time</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 42 -->
+	<Puzzle>
+		<Question>In Big-O notation, which of these growth rates is the fastest for large n?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(2^n)</CorrectAnswer>
+		<WrongAnswer>O(n²)</WrongAnswer>
+		<WrongAnswer>O(n log n)</WrongAnswer>
+		<WrongAnswer>O(n³)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 43 -->
+	<Puzzle>
+		<Question>You compute the greatest common divisor of two numbers using the Euclidean algorithm. What is its typical time complexity in terms of number magnitude?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>O(log min(a, b))</CorrectAnswer>
+		<WrongAnswer>O(a + b)</WrongAnswer>
+		<WrongAnswer>O(ab)</WrongAnswer>
+		<WrongAnswer>O(1)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 44 -->
+	<Puzzle>
+		<Question>Which of these is an example of an undecidable problem (in the sense of Turing)?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>The Halting Problem</CorrectAnswer>
+		<WrongAnswer>Checking if a number is prime</WrongAnswer>
+		<WrongAnswer>Sorting a list</WrongAnswer>
+		<WrongAnswer>Computing gcd(a, b)</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 45 -->
+	<Puzzle>
+		<Question>You have a language L for which there exists a Turing machine that halts and accepts exactly the strings in L, but may loop forever on strings not in L. What is L called?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Recursively enumerable</CorrectAnswer>
+		<WrongAnswer>Decidable</WrongAnswer>
+		<WrongAnswer>Regular</WrongAnswer>
+		<WrongAnswer>Context-free</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 46 -->
+	<Puzzle>
+		<Question>Which of these statements about P vs NP is currently known to be true?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>It is an open problem whether P = NP</CorrectAnswer>
+		<WrongAnswer>P = NP has been proven true</WrongAnswer>
+		<WrongAnswer>P = NP has been proven false</WrongAnswer>
+		<WrongAnswer>NP problems are all undecidable</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 47 -->
+	<Puzzle>
+		<Question>In a finite-state machine, which of these is true?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>It has a finite number of states</CorrectAnswer>
+		<WrongAnswer>It must read infinite input</WrongAnswer>
+		<WrongAnswer>It requires a stack</WrongAnswer>
+		<WrongAnswer>It can recognize all context-free languages</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 48 -->
+	<Puzzle>
+		<Question>Which of these languages is regular?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>The set of all strings over {0,1} with an even number of 1s</CorrectAnswer>
+		<WrongAnswer>{0^n 1^n | n &gt;= 0}</WrongAnswer>
+		<WrongAnswer>{0^p | p is prime}</WrongAnswer>
+		<WrongAnswer>{ww | w over {0,1}}</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 49 -->
+	<Puzzle>
+		<Question>If log₂(n) = 10, what is n?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>1024</CorrectAnswer>
+		<WrongAnswer>512</WrongAnswer>
+		<WrongAnswer>1000</WrongAnswer>
+		<WrongAnswer>2048</WrongAnswer>
+	</Puzzle>
+
+	<!-- Puzzle 50 -->
+	<Puzzle>
+		<Question>In many languages, what is memoization?</Question>
+		<Difficulty>5</Difficulty>
+		<CorrectAnswer>Caching function results to avoid recomputation</CorrectAnswer>
+		<WrongAnswer>Randomizing function outputs</WrongAnswer>
+		<WrongAnswer>Inlining every function call</WrongAnswer>
+		<WrongAnswer>Encrypting all variables</WrongAnswer>
+	</Puzzle>
+</Puzzles>
