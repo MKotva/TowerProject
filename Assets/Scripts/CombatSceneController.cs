@@ -16,6 +16,7 @@ public class CombatSceneController : MonoBehaviour
     public Entity player;
     public List<Entity> enemies;
     private GameObject[,] CellArray = null; 
+    private bool CellArrSetupComplete=false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,17 +33,24 @@ public class CombatSceneController : MonoBehaviour
 
                 CellArray[i, j]=temp.GetComponentInChildren<Button>().transform.gameObject;
                 CellArray[i, j].transform.SetParent(transform);
+                CellArray[i, j].GetComponent<GridButton>().Init(i, j, gameObject);
                 Destroy(temp);
             }
         }
 
-        //Spawn player and enemy sprites.
+        //Spawn player and enemy sprites. TODO
 
+    }
+    //Method for grid buttons to send signal that they've been pressed.
+    public void ReceiveClick(int w, int h)
+    {
+        //TODO: Logic of what happens
+        Debug.Log(w + ", " + h);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
