@@ -5,7 +5,14 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using DG.Tweening;
 
-
+//Enum for actions where we need to store the state. Defend, Rest and Potions have immediate effects.
+public enum SelectedAction
+{
+    None,
+    Move,
+    AttackPrimary,
+    AttackSecondary
+}
 
 public class CombatSceneController : MonoBehaviour
 {
@@ -18,8 +25,10 @@ public class CombatSceneController : MonoBehaviour
     public GameObject CellObj;
     public GameObject player;
     public List<Entity> enemies;
-    private GameObject[,] CellArray = null; 
+    private GameObject[,] CellArray = null;
 
+    public SelectedAction curSelectedAction = SelectedAction.None;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
