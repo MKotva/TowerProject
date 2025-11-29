@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.UIControllers;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -48,7 +49,7 @@ namespace Assets.Scripts
                 return;
             }
 
-            int puzzleIndex = Random.Range(0, bucket.Count);
+            int puzzleIndex = UnityEngine.Random.Range(0, bucket.Count);
             Puzzle selectedPuzzle = bucket[puzzleIndex];
 
             PuzzleMenuController.ShowPuzzle(selectedPuzzle, 60, OnPuzzleTimeExpiration);
@@ -82,6 +83,42 @@ namespace Assets.Scripts
             {
                  OnPuzzleTimeExpiration();
 
+            }
+        }
+
+        private Tuple<Tuple<List<RoomType>, string>, Tuple<List<RoomType>, string>> CreatePathHints()
+        {
+            float rng = UnityEngine.Random.Range(0, 1f);
+            var fixedPoints1 = CreateFixedPathPoints();
+            var fixedPoints2 = CreateFixedPathPoints();
+
+            throw new NotImplementedException();
+        }
+        private List<RoomType> CreateFixedPathPoints()
+        {
+            //We split the fixed path chances.
+            float rng = UnityEngine.Random.Range(0, 5);
+            if (rng < 1)
+            {
+                return new List<RoomType>();
+            }
+            if (rng < 3)
+            {
+                var l=new List<RoomType>();
+                l.Add((RoomType)UnityEngine.Random.Range(0, RoomGenerator.roomTypes));
+                return l;
+            }
+            else
+            {
+                var l = new List<RoomType>();
+                int roll1 = UnityEngine.Random.Range(0, RoomGenerator.roomTypes);
+                int roll2 = UnityEngine.Random.Range(0, RoomGenerator.roomTypes - 1);
+                if (roll2 >= roll1)
+                {
+                    roll2++;//Ensuring roll1 and 2 differ.
+                }
+                l.Add((RoomType)roll1);                
+                return l;
             }
         }
     }

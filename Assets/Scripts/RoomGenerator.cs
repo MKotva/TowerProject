@@ -12,6 +12,7 @@ public enum RoomType
 }
 public class RoomGenerator
 {
+    public const int roomTypes = 5;
     public static List<RoomType> GenerateRoomSeq(int roomCount = 5, List<RoomType> requiredRooms = null)//generates a sequence of rooms, including those in the required list
     {
         if (requiredRooms != null)
@@ -21,7 +22,6 @@ public class RoomGenerator
                 throw new ArgumentException("More required rooms than total room count");
             }
         }
-        const int roomTypes = 5;
         List<RoomType> rooms = new List<RoomType>();
         for (int i = 0; i < roomCount; i++)
         {
