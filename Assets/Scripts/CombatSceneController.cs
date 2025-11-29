@@ -2,6 +2,7 @@ using Assets.Scripts;
 using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class CombatSceneController : MonoBehaviour
 {
@@ -19,15 +20,19 @@ public class CombatSceneController : MonoBehaviour
     void Start()
     {
         //Populate area with CellObjs around the central position.
-        float start_off_w = -CellWidth * (GridWidth - 1);
-        float start_off_h = -CellHeight * (GridHeight - 1);
+        float start_off_w =  (-CellWidth/2) * (GridWidth - 1);
+        float start_off_h =  -3+(-CellHeight/2) * (GridHeight - 1);
         CellArray=new GameObject[GridWidth, GridHeight];
         for (int i = 0; i < GridWidth; i++)
         {
             for (int j = 0; j < GridHeight; j++)
             {
-                CellArray[i,j] = Instantiate(CellObj, new Vector3(start_off_w+i*CellWidth, start_off_h+j*CellHeight,0), Quaternion.identity);
+                var temp = Instantiate(CellObj, new Vector3(start_off_w+i*CellWidth, start_off_h+j*CellHeight,0), Quaternion.identity);
                 //CellArray[i,j].transform.position -=gameObject.transform.position; This means we can now manipulate it as we wish
+
+                CellArray[i, j]=temp.GetComponentInChildren<Button>().transform.gameObject;
+                CellArray[i, j].transform.SetParent(transform);
+                Destroy(temp);
             }
         }
 
