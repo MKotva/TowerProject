@@ -23,7 +23,7 @@ public class CombatSceneController : MonoBehaviour
     public float ZPerHeight = 1;
     public Vector3 baseOffs = new Vector3(0, -3, 0);
     public GameObject CellObj;
-    public GameObject player;
+    public Entity player;
     public List<Entity> enemies;
     private GameObject[,] CellArray = null;
 
