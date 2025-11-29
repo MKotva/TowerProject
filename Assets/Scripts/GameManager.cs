@@ -86,13 +86,45 @@ namespace Assets.Scripts
             }
         }
 
-        private Tuple<Tuple<List<RoomType>, string>, Tuple<List<RoomType>, string>> CreatePathHints()
+        public Tuple<Tuple<List<RoomType>, string>, Tuple<List<RoomType>, string>> CreatePathHints()
         {
             float rng = UnityEngine.Random.Range(0, 1f);
             var fixedPoints1 = CreateFixedPathPoints();
             var fixedPoints2 = CreateFixedPathPoints();
-
-            throw new NotImplementedException();
+            //TODO: If both have the same fixed path points, set one to new
+            bool bothTheSame = false;
+            //Cursed logic ahoy!
+            if (fixedPoints1.Count == 1 && fixedPoints2.Count == 1)
+            {                   
+                 bothTheSame = fixedPoints1[0] == fixedPoints2[0];                   
+            }
+            if (fixedPoints1.Count==2 && fixedPoints2.Count == 2)
+            {
+                bothTheSame=(fixedPoints1[0]==fixedPoints2[0] && fixedPoints1[1]==fixedPoints2[1])||(fixedPoints1[0]==fixedPoints2[1] && fixedPoints1[1]==fixedPoints2[0]);
+            }
+            if (bothTheSame)
+            {
+                fixedPoints2 = new List<RoomType>();
+            }
+            var t1 = Tuple.Create(fixedPoints1, GetPathHints(fixedPoints1));
+            var t2 = Tuple.Create(fixedPoints2, GetPathHints(fixedPoints2));
+            return Tuple.Create(t1, t2);
+        }
+        private string GetPathHints(List<RoomType> rooms)
+        {
+            if(rooms.Count == 0)
+            {
+                return null;//TODO: Have to load the path hints some way.
+            }
+            if(rooms.Count == 1)
+            {
+                return "You " + null;//TODO: Again, need it loaded somehow.
+            }
+            if (rooms.Count == 2)
+            {
+                return "You " + null+ "\nYou Also "+null;//TODO: Again, need it loaded somehow.
+            }
+            return "";
         }
         private List<RoomType> CreateFixedPathPoints()
         {
