@@ -60,7 +60,7 @@ public class CombatSceneController : MonoBehaviour
     {
         //TODO: Logic of what happens
         Debug.Log(w + ", " + h);
-        MoveGO(w, h, player);
+        MoveGO(w, h, player.gameObject);
     }
     public void MoveGO( int w, int h, GameObject go)
     {
