@@ -17,6 +17,8 @@ namespace Assets.Scripts
 
         private bool isSolvingPuzzle = false;
 
+        public List<RoomType> upcomingRooms;
+
         private void Start()
         {
             Puzzles = PuzzleLoader.LoadPuzzlesGroupedByDifficulty(PuzzlePath);
@@ -24,7 +26,6 @@ namespace Assets.Scripts
                 PuzzleMenuController.OnAnswerClicked += OnPuzzleAnswer;
             PuzzleTime();
         }
-
 
         public void PuzzleTime()
         {
