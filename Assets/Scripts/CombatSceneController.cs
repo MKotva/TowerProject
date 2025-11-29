@@ -3,6 +3,9 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using DG.Tweening;
+
+
 
 public class CombatSceneController : MonoBehaviour
 {
@@ -13,10 +16,10 @@ public class CombatSceneController : MonoBehaviour
     public float ZPerHeight = 1;
     public Vector3 baseOffs = new Vector3(0, -3, 0);
     public GameObject CellObj;
-    public Entity player;
+    public GameObject player;
     public List<Entity> enemies;
     private GameObject[,] CellArray = null; 
-    private bool CellArrSetupComplete=false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -38,7 +41,9 @@ public class CombatSceneController : MonoBehaviour
             }
         }
 
-        //Spawn player and enemy sprites. TODO
+        //Spawn player and enemy sprites. TODO, IDK how we do this. For now I'm linking player as an object. I can manipulate
+
+        //Player always spawns at (0,2), move him there.
 
     }
     //Method for grid buttons to send signal that they've been pressed.
@@ -46,8 +51,14 @@ public class CombatSceneController : MonoBehaviour
     {
         //TODO: Logic of what happens
         Debug.Log(w + ", " + h);
+        MoveGO(w, h, player);
     }
+    public void MoveGO( int w, int h, GameObject go)
+    {
+        //go.transform.position=CellArray[w, h].transform.position;
 
+        go.transform.DOMove(CellArray[w, h].transform.position, 1);
+    }
     // Update is called once per frame
     void Update()
     {
