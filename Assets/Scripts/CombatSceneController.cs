@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using DG.Tweening;
+using Unity.VisualScripting;
 
 //Enum for actions where we need to store the state. Defend, Rest and Potions have immediate effects.
 public enum SelectedAction
@@ -27,6 +28,8 @@ public class CombatSceneController : MonoBehaviour
     private GameObject[,] CellArray = null;
 
     public SelectedAction curSelectedAction = SelectedAction.None;
+    private int TurnState=-1;
+    private bool TurnDisabled=false;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -80,6 +83,33 @@ public class CombatSceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (TurnState == -1)
+        {
+            //player to move
+        }
+        else
+        {
+            if (TurnState >= enemies.Count)
+            {
+                TurnState = -1;
+                return;
+            }
+            var curMoving = enemies[TurnState];
+            bool endedTurn=getEnemyAction(curMoving);
+            //TODO: This should move the enemy,. in future also lock controls
+            if (endedTurn)
+            {
+                TurnState++;
+            }
+        }
+    }
+    private bool getEnemyAction(Entity enemy)
+    {
+        //We should select and execute enemy action here
+        return true;
+    }
+    public void OnTimeout()
+    {
+        TurnDisabled = false;
     }
 }
