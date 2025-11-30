@@ -1,21 +1,7 @@
-<<<<<<< HEAD
-﻿using Assets.Core.Items;
+using Assets.Core.Items;
 using Assets.Scripts.UIControllers;
-=======
-﻿using Assets.Scripts.UIControllers;
-using NUnit.Framework.Internal;
->>>>>>> 3fb31dc1ad23b18bd016e6894eae2e0f57261715
-using System;
 using System.Collections.Generic;
-using System.Security.Claims;
-using System.Security.Cryptography;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
-using static UnityEditor.ShaderData;
-using static UnityEditor.VersionControl.Message;
-using static UnityEngine.EventSystems.EventTrigger;
 
 namespace Assets.Scripts
 {
