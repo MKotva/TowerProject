@@ -5,10 +5,9 @@ namespace Assets.Scripts.RoomControllerScripts
 {
     public class EnemyRoom : RoomBase
     {
-        void Update()
+        public void Finish()
         {
-            if(base.controller != null)
-                FinishRoom();
+            FinishRoom();
         }
     }
 }

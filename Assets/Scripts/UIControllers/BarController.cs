@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class BarController : MonoBehaviour
@@ -13,6 +14,12 @@ public class BarController : MonoBehaviour
     void Start()
     {
         SetValues(Value, IsVisible, MinValue, MaxValue);
+    }
+
+    private void FixedUpdate()
+    {
+        var player = GameManager.Instance.PlayerController;
+        SetValues(player.StaminaPotions, true, 0, (float)player.MaxEndurance);
     }
 
     public void SetValues(float value, bool IsVisible = true)
