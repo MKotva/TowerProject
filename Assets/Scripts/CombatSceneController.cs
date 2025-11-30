@@ -10,8 +10,7 @@ public enum SelectedAction
 {
     None,
     Move,
-    AttackPrimary,
-    AttackSecondary
+    Attack
 }
 
 public class CombatSceneController : MonoBehaviour
@@ -34,7 +33,7 @@ public class CombatSceneController : MonoBehaviour
     {
         //Populate area with CellObjs around the central position.
         float start_off_w =  (-CellWidth/2) * (GridWidth - 1);
-        float start_off_h =  -3+(-CellHeight/2) * (GridHeight - 1);
+        float start_off_h =  -2.5f+(-CellHeight/2) * (GridHeight - 1);
         CellArray=new GameObject[GridWidth, GridHeight];
         for (int i = 0; i < GridWidth; i++)
         {
@@ -60,7 +59,17 @@ public class CombatSceneController : MonoBehaviour
     {
         //TODO: Logic of what happens
         Debug.Log(w + ", " + h);
-        MoveGO(w, h, player.gameObject);
+        switch (curSelectedAction)
+        {
+            case SelectedAction.Move:
+                MoveGO(w, h, player.gameObject);
+                break;
+            case SelectedAction.Attack:
+                break;
+            default:
+                break;
+        }
+        curSelectedAction = SelectedAction.None;       
     }
     public void MoveGO( int w, int h, GameObject go)
     {
