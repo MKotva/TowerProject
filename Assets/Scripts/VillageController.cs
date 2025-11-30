@@ -267,7 +267,6 @@ public class VillageController : MonoBehaviour
             string statName = data.Type switch
             {
                 PotionType.HP => "HP",
-                PotionType.MANA => "Mana",
                 PotionType.Endurance => "Endurance",
                 _ => "Stat"
             };

@@ -32,7 +32,6 @@ public static class StatScaler
         double baseMax = type switch
         {
             PotionType.HP => player.MaxLives * player.LiveHP,
-            PotionType.MANA => player.MaxMana,
             PotionType.Endurance => player.MaxEndurance,
             _ => 0
         };

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Core.Items
 {
-    public enum PotionType { HP, MANA, Endurance}
+    public enum PotionType { HP, Endurance}
 
     [CreateAssetMenu(menuName = "Game/Potion Data")]
     public class Potion : ScriptableObject, IItem
@@ -38,12 +38,6 @@ namespace Assets.Core.Items
 
                     entity.HP += healValue;
 
-                    break;
-                case PotionType.MANA:
-                    if (entity.Mana + IncreaseValue <= entity.MaxMana)
-                        entity.Mana += IncreaseValue;
-                    else
-                        entity.Mana = entity.MaxMana;
                     break;
                 case PotionType.Endurance:
                     if (entity.Endurance + IncreaseValue <= entity.MaxEndurance)

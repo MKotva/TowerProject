@@ -414,7 +414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -583,6 +583,9 @@ MonoBehaviour:
   currentValueText: {fileID: 9076275052501799506}
   costText: {fileID: 8116364350017443553}
   upgradeButton: {fileID: 3699097833963768907}
+  upgradeButtonBackground: {fileID: 0}
+  affordableColor: {r: 1, g: 1, b: 1, a: 1}
+  unaffordableColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!1 &8656578612792919250
 GameObject:
   m_ObjectHideFlags: 0
