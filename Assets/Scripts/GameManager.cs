@@ -33,11 +33,11 @@ namespace Assets.Scripts
 
         private void Start()
         {
-            if(GameData.manager != null)
+            if(GameData.Backed)
             {
-                ReachedLevel = GameData.manager.ReachedLevel;
-                PlayerController.Init(GameData.manager.PlayerController);
-                GameData.manager = null;
+                ReachedLevel = GameData.ReachedLevel;
+                PlayerController.Init();
+                GameData.Clear();
             }
 
             ScreenBlanker.FadeFromBlack();

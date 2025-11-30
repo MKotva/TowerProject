@@ -99,7 +99,7 @@ public class VillageController : MonoBehaviour
     {
         GameManager.Instance.ScreenBlanker.RunFadeSequence(() =>
         {
-            GameData.manager = GameManager.Instance;
+            GameData.Backup();
             SceneManager.LoadScene("TowerScene");
         });
     }

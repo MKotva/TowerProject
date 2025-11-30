@@ -239,7 +239,7 @@ public class RoomController : MonoBehaviour
     private void HandleEscape()
     {
         // Example:
-        GameData.manager = GameManager.Instance;
+        GameData.Backup();
         UnityEngine.SceneManagement.SceneManager.LoadScene("VillageScene");
     }
 }

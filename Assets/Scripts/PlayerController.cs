@@ -43,15 +43,15 @@ public class PlayerController : Entity
         }
     }
 
-    public void Init(PlayerController other)
+    public void Init()
     {
-        Gold = other.Gold;
-        Items = other.Items;
-        HP = other.HP;
-        Lives = other.Lives;
-        SkillSet = other.SkillSet;
-        Weapon = other.Weapon;
-        Armor = other.Armor;
+        Gold = GameData.Gold;
+        Items = GameData.Items;
+        HP = GameData.HP;
+        Lives = GameData.Lives;
+        SkillSet = GameData.SkillSet;
+        Weapon = GameData.Weapon;
+        Armor = GameData.Armor;
     }
 
     public void HealPlayer()

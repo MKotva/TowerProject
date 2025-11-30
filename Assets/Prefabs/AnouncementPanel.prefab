@@ -733,6 +733,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4826325743004597906}
     m_Modifications:
+    - target: {fileID: 1963927361488286001, guid: 55476edc138da9f4d862ad9fc82b6707, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5311653691137393160, guid: 55476edc138da9f4d862ad9fc82b6707, type: 3}
       propertyPath: m_Name
       value: RejectDecisionButton (1)
@@ -861,6 +865,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4826325743004597906}
     m_Modifications:
+    - target: {fileID: 1963927361488286001, guid: 55476edc138da9f4d862ad9fc82b6707, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5311653691137393160, guid: 55476edc138da9f4d862ad9fc82b6707, type: 3}
       propertyPath: m_Name
       value: AcceptDecisionButton
