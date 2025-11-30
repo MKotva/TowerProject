@@ -1336,7 +1336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomParent: {fileID: 2135592698}
-  enemyRoomPrefab: {fileID: 498789004604075546, guid: 116f6e3763c7edf4682447875f5d075f, type: 3}
+  enemyRoomPrefab: {fileID: 7452384398584329109, guid: 6fbd8591dfc8b6c4880cfc0a6d781779, type: 3}
   treasureRoomPrefab: {fileID: 7434192944926934079, guid: 26e5f74e0ba43534eb7d025bbf354c3a, type: 3}
   emptyRoomPrefab: {fileID: 498789004604075546, guid: 116f6e3763c7edf4682447875f5d075f, type: 3}
   puzzleRoomPrefab: {fileID: 7452384398584329109, guid: 6fbd8591dfc8b6c4880cfc0a6d781779, type: 3}

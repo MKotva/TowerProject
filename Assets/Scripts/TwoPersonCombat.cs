@@ -114,11 +114,10 @@ public class CombatController : MonoBehaviour
         {
             combatEnded = true;
             roomController.Finish();
-            Destroy(enemy);
+            enemy.enabled = false;
             Copy(this.player, GameManager.Instance.PlayerController);
             PlayDeathSfx();
             onEnemyDefeated?.Invoke();
-
             return true;
         }
 
