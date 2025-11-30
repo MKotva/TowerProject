@@ -1,9 +1,21 @@
+<<<<<<< HEAD
 ﻿using Assets.Core.Items;
 using Assets.Scripts.UIControllers;
+=======
+﻿using Assets.Scripts.UIControllers;
+using NUnit.Framework.Internal;
+>>>>>>> 3fb31dc1ad23b18bd016e6894eae2e0f57261715
 using System;
 using System.Collections.Generic;
+using System.Security.Claims;
+using System.Security.Cryptography;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
+using static UnityEditor.ShaderData;
+using static UnityEditor.VersionControl.Message;
+using static UnityEngine.EventSystems.EventTrigger;
 
 namespace Assets.Scripts
 {
@@ -99,7 +111,7 @@ namespace Assets.Scripts
             }
         }
 
-        //public Tuple<Tuple<List<RoomType>, string>, Tuple<List<RoomType>, string>> CreatePathHints()
+        //public static Tuple<Tuple<List<RoomType>, string>, Tuple<List<RoomType>, string>> CreatePathHints()
         //{
         //    float rng = UnityEngine.Random.Range(0, 1f);
         //    var fixedPoints1 = CreateFixedPathPoints();
@@ -123,15 +135,17 @@ namespace Assets.Scripts
         //    var t2 = Tuple.Create(fixedPoints2, GetPathHints(fixedPoints2));
         //    return Tuple.Create(t1, t2);
         //}
-        //private string GetPathHints(List<RoomType> rooms)
+        //private static string GetPathHints(List<RoomType> rooms)
         //{
-        //    if(rooms.Count == 0)
+        //    string random="This entrance seems steeped in mystery.Nobody can tell what the floors above may contain, be it ultimate fortune or misfortune. However, in uncertainty there is always opportunity.";
+
+        //    if (rooms.Count == 0)
         //    {
-        //        return null;//TODO: Have to load the path hints some way.
+        //        return random;//TODO: Have to load the path hints some way.
         //    }
         //    if(rooms.Count == 1)
         //    {
-        //        return "You " + null;//TODO: Again, need it loaded somehow.
+        //        return "You " + GetStringForRoomType(rooms[0]);//TODO: Again, need it loaded somehow.
         //    }
         //    if (rooms.Count == 2)
         //    {
@@ -139,7 +153,31 @@ namespace Assets.Scripts
         //    }
         //    return "";
         //}
-        //private List<RoomType> CreateFixedPathPoints()
+        //private static string GetStringForRoomType(RoomType roomType)
+        //{
+        //    string enemy = "hear distinct sounds of something moving in the distance and catch a faint whiff of blood.Something is up ahead and it definitely isn't friendly.";
+        //    string treasure = "feel as if the goddess of fortune had blessed this path. There are riches ahead, should you make it far enough to claim them.";
+        //    string empty = "sense air brush past you coming out of this door, heavy with the smell of rot. Whatever it is, it doesn't smell like a trap nor a monster. More like an ancient storage room.";
+        //    string puzzle = "hear ticking, like a clock behind this door. Suddenly, a faint smell of oil joins it. There is some mechanism further up, but your instincts tell you it isn't another trap.";
+        //    string rest = "swear you heard the sound of gold coins falling. There must be a magical merchant up ahead.";
+        //    switch (roomType)
+        //    {
+        //        case RoomType.Enemy:
+        //            return enemy;                    
+        //        case RoomType.Treasure:
+        //            return treasure;
+        //        case RoomType.Empty:
+        //            return empty;
+        //        case RoomType.Puzzle:
+        //            return puzzle;
+        //        case RoomType.RestStop:
+        //            return rest;
+
+        //        default:
+        //            return "";
+        //    }
+        //}
+        //private static List<RoomType> CreateFixedPathPoints()
         //{
         //    //We split the fixed path chances.
         //    float rng = UnityEngine.Random.Range(0, 5);

@@ -15,8 +15,8 @@ namespace Assets.Scripts
         public double LiveHP = 20;
         public double HP = 20;
 
-        public double MaxMana = 100;
-        public double Mana = 100;
+        //public double MaxMana = 100;
+        //public double Mana = 100;
 
         public double MaxEndurance = 100;
         public double Endurance = 100;
