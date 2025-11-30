@@ -18,18 +18,19 @@ public class PlayerController : Entity
 {
     public bool isInCombat;
     public int Gold = 100;
-    public List<IItem> Items {  get; private set; }
-    public IWeapon Weap1 { get; private set; }
-    public IWeapon Weap2 { get; private set; }
 
+    public List<IItem> Items {  get; set; }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public int HPPotions = 0;
+
+    public int StaminaPotions = 0;
+
+    new void Start()
     {
-        
+        base.Start();
+        Items = new List<IItem>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(HP <= 0)

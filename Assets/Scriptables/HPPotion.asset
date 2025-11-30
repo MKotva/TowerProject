@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da0f065fa1dcb349840e6aba8ef8ae7, type: 3}
+  m_Name: HPPotion
+  m_EditorClassIdentifier: 
+  name: HP Potion
+  value: 100
+  type: 0
+  increaseValue: 20
+  icon: {fileID: -5428206428529569624, guid: d1ea7dab0ed19e34f9512ed14e422aa9, type: 3}
+  RestoreFractionOfMax: 0.25
+  FlatBonus: 5

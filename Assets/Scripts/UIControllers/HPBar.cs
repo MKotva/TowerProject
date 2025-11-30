@@ -6,17 +6,16 @@ using UnityEngine.UI;
 public class UIHeartsController : MonoBehaviour
 {
     [Header("Setup")]
-    [SerializeField] private Transform heartsParent;      // e.g. a Horizontal Layout Group
-    [SerializeField] private Image heartPrefab;          // prefab with an Image component
-    [SerializeField] private Sprite fullHeartSprite;     // red heart sprite
-    [SerializeField] private Sprite emptyHeartSprite;    // black heart sprite
+    [SerializeField] private Transform heartsParent;      
+    [SerializeField] private Image heartPrefab;         
+    [SerializeField] private Sprite fullHeartSprite;    
+    [SerializeField] private Sprite emptyHeartSprite;   
 
     private readonly List<Image> _hearts = new List<Image>();
     private PlayerController _player;
 
     private void Awake()
     {
-        // Get player from GameManager singleton
         _player = GameManager.Instance.PlayerController;
     }
 
@@ -28,23 +27,18 @@ public class UIHeartsController : MonoBehaviour
 
     private void Update()
     {
-        // Easiest: refresh every frame.
-        // For a polished version, call UpdateHearts() only when HP changes.
         UpdateHearts();
     }
 
     private void CreateHearts()
     {
-        // Clear existing children (if any)
         foreach (Transform child in heartsParent)
         {
             Destroy(child.gameObject);
         }
         _hearts.Clear();
 
-        int maxHearts = Mathf.CeilToInt((float) _player.MaxHP);
-
-        for (int i = 0; i < maxHearts; i++)
+        for (int i = 0; i < _player.MaxLives; i++)
         {
             Image heart = Instantiate(heartPrefab, heartsParent);
             heart.sprite = emptyHeartSprite;
@@ -54,16 +48,11 @@ public class UIHeartsController : MonoBehaviour
 
     private void UpdateHearts()
     {
-        double hp = _player.HP;
-
         for (int i = 0; i < _hearts.Count; i++)
         {
-            // Heart i represents HP in (i, i+1]
             double heartIndex = i + 1;
-
-            if (hp >= heartIndex)
+            if (heartIndex < _player.Lives)
             {
-                // full heart
                 _hearts[i].sprite = fullHeartSprite;
             }
             else

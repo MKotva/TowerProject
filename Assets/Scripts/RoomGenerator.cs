@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum RoomType
-{
-    Enemy,
-    Treasure,
-    Empty,
-    Puzzle,
-    RestStop
-}
+//public enum RoomType
+//{
+//    Enemy,
+//    Treasure,
+//    Empty,
+//    Puzzle,
+//    RestStop
+//}
 public class RoomGenerator
 {
     public const int roomTypes = 5;

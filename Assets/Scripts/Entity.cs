@@ -10,8 +10,10 @@ namespace Assets.Scripts
 {
     public class Entity : MonoBehaviour
     {
-        public double MaxHP = 5;
-        public double HP = 5;
+        public double MaxLives = 5;
+        public double Lives = 5;
+        public double LiveHP = 20;
+        public double HP = 20;
 
         public double MaxMana = 100;
         public double Mana = 100;
@@ -22,30 +24,48 @@ namespace Assets.Scripts
         public double Money = 100;
         public SkillSet SkillSet;
         public Weapon Weapon;
-        public Armor[] Armor = new Scripts.Armor[5];
+        public Armor Armor;
+
+        public void Start()
+        {
+            SkillSet = new SkillSet();
+            Weapon = GameManager.Instance.DefaultWeapon;
+            Armor = GameManager.Instance.DefaultArmor;
+        }
 
 
         public void RecieveDamage(double atackPower)
         {
             var defendPower = 0;
-            foreach(var armor in Armor)
+            if (Armor != null)
             {
-                if(armor != null)
-                {
-                    defendPower += armor.ProtectionPoints;
-                }
+                defendPower += Armor.ProtectionPoints;
             }
 
-            atackPower -= (defendPower + (0.6 * (Math.Pow(SkillSet.Agility, 2))));
+
+            atackPower -= ( defendPower + ( 0.6 * ( Math.Pow(SkillSet.Agility, 2) ) ) );
             if (atackPower < 0)
                 return;
             else
+            {
+                while(HP - atackPower < 0)
+                {
+                    atackPower -= HP;
+                    LooseLive();
+                }
                 HP -= atackPower;
+            }
         }
 
         public double DealDamage()
         {
-            return (Weapon.DamagePower + ( 0.6 * ( Math.Pow(SkillSet.Strength, 2))));
+            return ( Weapon.DamagePower + ( 0.6 * ( Math.Pow(SkillSet.Strength, 2) ) ) );
+        }
+
+        public void LooseLive()
+        {
+            Lives--;
+            HP = 20;
         }
     }
 }

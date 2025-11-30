@@ -1,33 +1,43 @@
 ﻿using Assets.Scripts;
-using NUnit.Framework.Constraints;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using UnityEngine;
 
 namespace Assets.Core.Items
 {
     public enum PotionType { HP, MANA, Endurance}
 
-    internal class Potion : IItem
+    [CreateAssetMenu(menuName = "Game/Potion Data")]
+    public class Potion : ScriptableObject, IItem
     {
-        public string Name { get; set; }
-        public int Value { get; set; }
+        [SerializeField] private string name;
+        [SerializeField] private int value;
+        [SerializeField] private PotionType type;
+        [SerializeField] private int increaseValue;
+        [SerializeField] private Sprite icon;
 
-        public PotionType Type { get; set; }
+        public float RestoreFractionOfMax = 0.25f;
 
-        public int IncreaseValue { get; set; }
+        public int FlatBonus = 0;
+
+        public string Name { get { return name; } set { name = value; } }
+        public int Value { get { return value; } set { this.value = value; } }
+        public PotionType Type { get { return type; } set { type = value; } }
+        public int IncreaseValue { get { return increaseValue; } set { increaseValue = value; } }
+        public Sprite Icon { get { return icon; } set { icon = value; } }
 
         public void Use(Entity entity)
         {
             switch (Type)
             {
                 case PotionType.HP: 
-                    if(entity.HP + IncreaseValue <= entity.MaxHP)
-                        entity.HP += IncreaseValue;
-                    else
-                        entity.HP = entity.MaxHP;
+                    var healValue = IncreaseValue;
+                    while(entity.HP + healValue <= entity.LiveHP)
+                    {
+                        healValue -= (int)(entity.LiveHP - entity.HP);
+                        entity.Lives++;
+                    }
+
+                    entity.HP += healValue;
+
                     break;
                 case PotionType.MANA:
                     if (entity.Mana + IncreaseValue <= entity.MaxMana)
