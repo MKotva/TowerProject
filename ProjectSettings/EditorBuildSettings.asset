@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TowerScene.unity
     guid: 9537a2416f6cc0948923b5979a63f624
+  - enabled: 1
+    path: Assets/Scenes/GameLostScene.unity
+    guid: 3ed10e0e5de04184fac91b85f4f4a0db
+  - enabled: 1
+    path: Assets/Scenes/VictoryScene.unity
+    guid: ed86f844e1dddd74883c68d1cc3312a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

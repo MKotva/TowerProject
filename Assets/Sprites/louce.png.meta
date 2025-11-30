@@ -156,8 +156,8 @@ TextureImporter:
         serializedVersion: 2
         x: 132
         y: 689
-        width: 121
-        height: 302
+        width: 120
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,12 +198,12 @@ TextureImporter:
       name: louce_2
       rect:
         serializedVersion: 2
-        x: 456
+        x: 455
         y: 689
-        width: 122
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 120
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5548864, y: 0.49560955}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,10 +242,10 @@ TextureImporter:
       name: louce_4
       rect:
         serializedVersion: 2
-        x: 785
+        x: 771
         y: 689
-        width: 108
-        height: 301
+        width: 120
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,12 +374,12 @@ TextureImporter:
       name: louce_10
       rect:
         serializedVersion: 2
-        x: 135
+        x: 132
         y: 362
-        width: 114
-        height: 303
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 120
+        height: 300
+      alignment: 9
+      pivot: {x: 0.46706873, y: 0.5000002}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,10 +396,10 @@ TextureImporter:
       name: louce_11
       rect:
         serializedVersion: 2
-        x: 135
-        y: 36
-        width: 114
-        height: 287
+        x: 132
+        y: 33
+        width: 120
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +440,10 @@ TextureImporter:
       name: louce_13
       rect:
         serializedVersion: 2
-        x: 456
+        x: 455
         y: 359
         width: 120
-        height: 307
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,7 +465,7 @@ TextureImporter:
         x: 456
         y: 34
         width: 120
-        height: 295
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,7 +508,7 @@ TextureImporter:
         serializedVersion: 2
         x: 771
         y: 37
-        width: 122
+        width: 120
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -528,10 +528,10 @@ TextureImporter:
       name: louce_17
       rect:
         serializedVersion: 2
-        x: 774
+        x: 771
         y: 363
-        width: 119
-        height: 278
+        width: 120
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

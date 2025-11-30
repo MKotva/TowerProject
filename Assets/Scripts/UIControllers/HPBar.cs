@@ -14,13 +14,9 @@ public class UIHeartsController : MonoBehaviour
     private readonly List<Image> _hearts = new List<Image>();
     private PlayerController _player;
 
-    private void Awake()
-    {
-        _player = GameManager.Instance.PlayerController;
-    }
-
     private void Start()
     {
+        _player = GameManager.Instance.PlayerController;
         CreateHearts();
         UpdateHearts();
     }
@@ -51,13 +47,12 @@ public class UIHeartsController : MonoBehaviour
         for (int i = 0; i < _hearts.Count; i++)
         {
             double heartIndex = i + 1;
-            if (heartIndex < _player.Lives)
+            if (heartIndex <= _player.Lives)
             {
                 _hearts[i].sprite = fullHeartSprite;
             }
             else
             {
-                // empty heart
                 _hearts[i].sprite = emptyHeartSprite;
             }
         }

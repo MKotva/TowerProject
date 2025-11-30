@@ -174,7 +174,6 @@ public class PlayerEquipmentPanel : MonoBehaviour
         ShowSellAnnouncement(msg, () =>
         {
             player.Gold += sellPrice;
-            player.Money = player.Gold;
 
             RemoveItemFromInventory(player.Items, weapon);
 
@@ -207,8 +206,6 @@ public class PlayerEquipmentPanel : MonoBehaviour
         ShowSellAnnouncement(msg, () =>
         {
             player.Gold += sellPrice;
-            player.Money = player.Gold;
-
             RemoveItemFromInventory(player.Items, armor);
 
             var bestArmor = player.Items
@@ -240,8 +237,6 @@ public class PlayerEquipmentPanel : MonoBehaviour
         ShowSellAnnouncement(msg, () =>
         {
             player.Gold += sellPrice;
-            player.Money = player.Gold;
-
             player.HPPotions = Mathf.Max(0, player.HPPotions - 1);
             RemoveItemFromInventory(player.Items, potionToSell);
 
@@ -268,8 +263,6 @@ public class PlayerEquipmentPanel : MonoBehaviour
         ShowSellAnnouncement(msg, () =>
         {
             player.Gold += sellPrice;
-            player.Money = player.Gold;
-
             player.StaminaPotions = Mathf.Max(0, player.StaminaPotions - 1);
             RemoveItemFromInventory(player.Items, potionToSell);
 

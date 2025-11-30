@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public enum RoomType
 {
     Enemy,
@@ -22,21 +23,28 @@ public class RoomNode
 
 public static class RoomTreeGenerator
 {
-    public const int MaxTotalLevels = 100;
-    public const int MaxDepthFor100 = MaxTotalLevels;
+    public static int MaxTotalLevels = GameManager.Instance.MaxLevel;
+    public static int MaxDepth = MaxTotalLevels;
 
     private static readonly Dictionary<RoomType, int> _weights = new Dictionary<RoomType, int>
     {
-        { RoomType.Treasure,  2 },
-        { RoomType.RestStop,  5 },
-        { RoomType.Empty,     9 },
-        { RoomType.Puzzle,   13 },
-        { RoomType.Enemy,    20 }
+        { RoomType.Treasure, 10 },
+        { RoomType.RestStop, 10 },
+        { RoomType.Empty,    10 },
+        { RoomType.Puzzle,   40 },
+        { RoomType.Enemy,    40 }
     };
     public static RoomNode GenerateTreeForPlayer(float stopChancePerLevel = 0.0f)
     {
         var reached = Mathf.Clamp(GameManager.Instance.ReachedLevel, 1, MaxTotalLevels);
-        var desiredDepth = Mathf.Clamp(reached, 1, MaxDepthFor100);
+        var desiredDepth = Mathf.Clamp(reached, 1, MaxDepth);
+        if (desiredDepth >= MaxDepth - 1)
+        {
+            GameManager.Instance.ScreenBlanker.RunFadeSequence(() =>
+            {
+                SceneManager.LoadScene("VictoryScene");
+            });
+        }
         return GenerateNode(0, desiredDepth, stopChancePerLevel);
     }
 
@@ -234,13 +242,18 @@ public static class RoomHintGenerator
         if (focusRooms.Count == 1)
         {
             string phrase = SoftDescribe(focusRooms[0]);
-            return $"You feel that this path hides {phrase}.";
+            return $"You feel that this path hides {phrase}. \n\n\n But your senses could be deceiving you...";
         }
         return $"You sense {SoftDescribe(focusRooms[0])}, but also {SoftDescribe(focusRooms[1])} somewhere along this path.";
     }
 
     private static string SoftDescribe(RoomType type)
     {
+        if(Random.Range(1, 20) <= 5)
+        {
+            type = (RoomType)(Random.Range(0, 4));
+        }
+
         switch (type)
         {
             case RoomType.Enemy:
@@ -269,7 +282,7 @@ public static class RoomHintGenerator
             if (!char.IsWhiteSpace(chars[i]) &&
                 UnityEngine.Random.value < DamageChancePerChar)
             {
-                chars[i] = ' ';
+                chars[i] = '_';
             }
         }
         return new string(chars);

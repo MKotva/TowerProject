@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 25552fbcddc30f04e9c93811799935fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7289398292393711079
+    second: MagicalSeal_0
+  - first:
+      213: -7874264305407144833
+    second: MagicalSeal_1
+  - first:
+      213: 2604315348539986204
+    second: MagicalSeal_2
+  - first:
+      213: -4049582170027658405
+    second: MagicalSeal_3
+  - first:
+      213: -2365909031427623777
+    second: MagicalSeal_4
+  - first:
+      213: -8028659601971518653
+    second: MagicalSeal_5
+  - first:
+      213: 108393752619034527
+    second: MagicalSeal_6
+  - first:
+      213: -8977974375027682168
+    second: MagicalSeal_7
+  - first:
+      213: -8795201019249897846
+    second: MagicalSeal_8
+  - first:
+      213: 8300710457352780686
+    second: MagicalSeal_9
+  - first:
+      213: -2639109820460239599
+    second: MagicalSeal_10
+  - first:
+      213: 7578018180093835885
+    second: MagicalSeal_11
+  - first:
+      213: -1290311380888043943
+    second: MagicalSeal_12
+  - first:
+      213: 3392703534084483491
+    second: MagicalSeal_13
+  - first:
+      213: 4081112511628643941
+    second: MagicalSeal_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicalSeal_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 694
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e557744025292560800000000000000
+      internalID: 7289398292393711079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_1
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 694
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c4ba8755ef8b290800000000000000
+      internalID: -7874264305407144833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 693
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11d2d0e203642420800000000000000
+      internalID: 2604315348539986204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 383
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53feb2d87efcc7c0800000000000000
+      internalID: -4049582170027658405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_4
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 561
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f943ed2654a9a2fd0800000000000000
+      internalID: -2365909031427623777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 383
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34365f131a8749090800000000000000
+      internalID: -8028659601971518653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 386
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97aab03b87118100800000000000000
+      internalID: 108393752619034527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 542
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8845aed8fd3d76380800000000000000
+      internalID: -8977974375027682168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ec47f954b21f580800000000000000
+      internalID: -8795201019249897846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 340
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bf1e19e2c023370800000000000000
+      internalID: 8300710457352780686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 73
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115f834d99fff5bd0800000000000000
+      internalID: -2639109820460239599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_11
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 252
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6af1fd72678a2960800000000000000
+      internalID: 7578018180093835885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_12
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 255
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e368ca2a4e71ee0800000000000000
+      internalID: -1290311380888043943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_13
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 72
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9615193ed451f20800000000000000
+      internalID: 3392703534084483491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicalSeal_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 219
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e0708e43603a830800000000000000
+      internalID: 4081112511628643941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 597831239cc3da64699f546750439bd6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MagicalSeal_0: 7289398292393711079
+      MagicalSeal_1: -7874264305407144833
+      MagicalSeal_10: -2639109820460239599
+      MagicalSeal_11: 7578018180093835885
+      MagicalSeal_12: -1290311380888043943
+      MagicalSeal_13: 3392703534084483491
+      MagicalSeal_14: 4081112511628643941
+      MagicalSeal_2: 2604315348539986204
+      MagicalSeal_3: -4049582170027658405
+      MagicalSeal_4: -2365909031427623777
+      MagicalSeal_5: -8028659601971518653
+      MagicalSeal_6: 108393752619034527
+      MagicalSeal_7: -8977974375027682168
+      MagicalSeal_8: -8795201019249897846
+      MagicalSeal_9: 8300710457352780686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

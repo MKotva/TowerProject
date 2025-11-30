@@ -1,10 +1,13 @@
 using Assets.Scripts;
+using DG.Tweening;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class RoomController : MonoBehaviour
 {
     public static RoomController Instance { get; private set; }
+
     public Transform roomParent;
 
     public GameObject enemyRoomPrefab;
@@ -12,11 +15,15 @@ public class RoomController : MonoBehaviour
     public GameObject emptyRoomPrefab;
     public GameObject puzzleRoomPrefab;
     public GameObject restStopRoomPrefab;
-    public GameObject WinRoom;
 
-    private GameObject currRoomInstance;
-    private RoomNode root;
-    private RoomNode currNode;
+    public Transform uiRoot;
+    public GameObject announcementPrefab;
+
+    private GameObject _currentRoomInstance;
+    private RoomNode _rootNode;
+    private RoomNode _currentNode;
+    private List<bool> _path = new List<bool>();
+    private bool _roomCompleted = false;
 
     private void Awake()
     {
@@ -36,28 +43,56 @@ public class RoomController : MonoBehaviour
 
     private void InitializeTree()
     {
-        var reached = GameManager.Instance != null ? GameManager.Instance.ReachedLevel : 1;
-        root = RoomTreeGenerator.GenerateTreeForPlayer(reached);
-        currNode = root;
+        int reachedLevel = GameManager.Instance != null ? GameManager.Instance.ReachedLevel : 1;
+        _rootNode = RoomTreeGenerator.GenerateTreeForPlayer(reachedLevel);
+        _currentNode = _rootNode;
+        _path.Clear();
+        _roomCompleted = false;
     }
 
     private void SpawnCurrentRoom()
     {
-        if (currRoomInstance != null)
+        if (_currentNode == null)
         {
-            Destroy(currRoomInstance);
-            currRoomInstance = null;
+            return;
         }
 
-        GameObject prefab = GetPrefabForRoomType(currNode.Room);
+        if (_currentRoomInstance != null)
+        {
+            Destroy(_currentRoomInstance);
+            _currentRoomInstance = null;
+        }
+
+        RoomType roomType = _currentNode.Room;
+        GameObject prefab = GetPrefabForRoomType(roomType);
+        if (prefab == null)
+        {
+            Debug.LogError("RoomController: No prefab assigned for room type " + roomType);
+            return;
+        }
+
         Transform parent = roomParent != null ? roomParent : transform;
-        currRoomInstance = Instantiate(prefab, parent);
+        _currentRoomInstance = GameObject.Instantiate(prefab, parent);
 
-        var doors = currRoomInstance.GetComponentsInChildren<RoomDoor>();
-        foreach (var door in doors)
+        var controller = _currentRoomInstance.GetComponent<RoomBase>();
+        if (controller != null)
+            controller.Init(this);
+
+        RoomDoor[] doors = _currentRoomInstance.GetComponentsInChildren<RoomDoor>(true);
+        if (doors == null || doors.Length == 0)
         {
-            door.Init(this, door.IsLeftDoor);
+            Debug.LogWarning("RoomController: Spawned room has no RoomDoor components.");
         }
+        else
+        {
+            foreach (RoomDoor door in doors)
+            {
+                door.Init(this);
+                door.SetLocked(true);
+            }
+        }
+
+        _roomCompleted = false;
     }
 
     private GameObject GetPrefabForRoomType(RoomType type)
@@ -73,26 +108,138 @@ public class RoomController : MonoBehaviour
         }
     }
 
-    public void OnDoorChosen(bool choseLeftDoor)
+    public void NotifyRoomCompleted()
     {
+        if (_roomCompleted)
+            return;
+
+        _roomCompleted = true;
+
         if (GameManager.Instance != null)
         {
-            GameManager.Instance.ReachedLevel = Mathf.Min(GameManager.Instance.ReachedLevel + 1, RoomTreeGenerator.MaxTotalLevels);
+            GameManager.Instance.ReachedLevel = Mathf.Min(
+                GameManager.Instance.ReachedLevel + 1,
+                RoomTreeGenerator.MaxTotalLevels);
         }
-        AdvanceToNextNode(choseLeftDoor);
-        SpawnCurrentRoom();
+
+        if (_currentRoomInstance != null)
+        {
+            RoomDoor[] doors = _currentRoomInstance.GetComponentsInChildren<RoomDoor>(true);
+            foreach (RoomDoor door in doors)
+            {
+                door.SetLocked(false);
+            }
+        }
     }
 
-    private void AdvanceToNextNode(bool choseLeftDoor)
+    public void OnDoorChosen(RoomDoor door)
     {
-        RoomNode next = choseLeftDoor ? currNode.Left : currNode.Right;
+        if (!_roomCompleted)
+        {
+            return;
+        }
+
+        switch (door.doorType)
+        {
+            case DoorType.LeftPath:
+                ShowPathAnnouncement(true);
+                break;
+
+            case DoorType.RightPath:
+                ShowPathAnnouncement(false);
+                break;
+
+            case DoorType.Escape:
+                ShowRetreatAnnouncement();
+                break;
+        }
+    }
+
+    private void ShowPathAnnouncement(bool isLeft)
+    {
+        string hint = RoomHintGenerator.GetBranchHint(_currentNode, isLeft, 3);
+        if (string.IsNullOrEmpty(hint))
+        {
+            hint = "The path ahead feels uncertain, offering no clear omen.";
+        }
+
+        string msg = hint + "\n\n" +
+                     "Do you wish to continue down this path?";
+
+        ShowAnnouncement(msg, 0, true, accepted =>
+        {
+            if (accepted)
+            {
+                GoToChildNode(isLeft);
+                GameManager.Instance.ScreenBlanker.RunFadeSequence(() =>
+                {
+                    SpawnCurrentRoom();
+                });
+            }
+        });
+    }
+
+    private void ShowRetreatAnnouncement()
+    {
+        int fee = GameManager.Instance.ReachedLevel * GameManager.Instance.towerRescueFee;
+
+        string msg =
+            "You think about leaving the battle.\n" +
+            "To retreat from the tower, you must call for a rescue squad.\n" +
+            "They do not risk their lives for free.\n\n" +
+            "This retreat will cost you " + fee + " gold.\n\n" +
+            "Do you really want to abandon this run and return?";
+
+        ShowAnnouncement(msg, fee, true, accepted =>
+        {
+            if (!accepted)
+                return;
+
+            HandleEscape();
+        });
+    }
+
+
+    private void ShowAnnouncement(string message, int price, bool isDecision, Action<bool> onResult)
+    {
+        GameObject popup = GameObject.Instantiate(announcementPrefab, uiRoot);
+        AnnouncementController ctrl = popup.GetComponent<AnnouncementController>();
+
+        if (ctrl == null)
+        {
+            GameObject.Destroy(popup);
+            return;
+        }
+
+        ctrl.Init(message, price, isDecision, onResult);
+    }
+
+    private void GoToChildNode(bool isLeft)
+    {
+        if (_currentNode == null)
+        {
+            InitializeTree();
+            return;
+        }
+
+        RoomNode next = isLeft ? _currentNode.Left : _currentNode.Right;
+
         if (next == null)
         {
             InitializeTree();
         }
         else
         {
-            currNode = next;
+            _currentNode = next;
+            _path.Add(isLeft);
+            _roomCompleted = false;
         }
+    }
+
+    private void HandleEscape()
+    {
+        // Example:
+        GameData.manager = GameManager.Instance;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("VillageScene");
     }
 }

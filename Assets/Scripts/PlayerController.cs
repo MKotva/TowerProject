@@ -24,7 +24,7 @@ public class PlayerController : Entity
     public int HPPotions = 0;
 
     public int StaminaPotions = 0;
-
+    private bool isDying = false;
     new void Start()
     {
         base.Start();
@@ -33,9 +33,30 @@ public class PlayerController : Entity
 
     void Update()
     {
-        if(HP <= 0)
+        if(Lives <= 0 && !isDying)
         {
-            SceneManager.LoadScene("MainMenu");
+            isDying = true;
+            GameManager.Instance.ScreenBlanker.FadeToBlack(() =>
+            {
+                SceneManager.LoadScene("GameLostScene");
+            });
         }
+    }
+
+    public void Init(PlayerController other)
+    {
+        Gold = other.Gold;
+        Items = other.Items;
+        HP = other.HP;
+        Lives = other.Lives;
+        SkillSet = other.SkillSet;
+        Weapon = other.Weapon;
+        Armor = other.Armor;
+    }
+
+    public void HealPlayer()
+    {
+       Lives = MaxLives;
+       HP = LiveHP;
     }
 }

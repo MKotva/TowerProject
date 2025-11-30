@@ -18,11 +18,7 @@ public class ScreenBlanketController : MonoBehaviour
 
     private void Start()
     {
-        if (blanketImage == null)
-            return;
-
         SetAlpha(1f);
-        _currentRoutine = StartCoroutine(FadeTo(0f, fadeDuration));
     }
     public void RunFadeSequence(Action midAction)
     {

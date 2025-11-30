@@ -33,10 +33,15 @@ namespace Assets.Scripts
 
         private void Start()
         {
+            if(GameData.manager != null)
+            {
+                ReachedLevel = GameData.manager.ReachedLevel;
+                PlayerController.Init(GameData.manager.PlayerController);
+                GameData.manager = null;
+            }
+
+            ScreenBlanker.FadeFromBlack();
             Puzzles = PuzzleLoader.LoadPuzzlesGroupedByDifficulty(PuzzlePath);
-            if(PuzzleMenuController != null ) 
-                PuzzleMenuController.OnAnswerClicked += OnPuzzleAnswer;
-            PuzzleTime();
         }
 
         public void PuzzleTime()
@@ -62,9 +67,7 @@ namespace Assets.Scripts
 
             int puzzleIndex = UnityEngine.Random.Range(0, bucket.Count);
             Puzzle selectedPuzzle = bucket[puzzleIndex];
-
-            PuzzleMenuController.ShowPuzzle(selectedPuzzle, 60, OnPuzzleTimeExpiration);
-
+            PuzzleMenuController.ShowPuzzle(selectedPuzzle, 60 + (PlayerController.SkillSet.Inteligence * 2), OnPuzzleTimeExpiration);
             isSolvingPuzzle = true;
         }
 
@@ -77,23 +80,21 @@ namespace Assets.Scripts
 
         public void OnPuzzleTimeExpiration()
         {
-            PlayerController.HP -= 1;
+            PlayerController.RecieveDamage(20);
             isSolvingPuzzle = false;
             PuzzleTime();
         }
-
-        private void OnPuzzleAnswer(bool truth, string answer, Puzzle puzzle)
+        public void OnPuzzleAnswer(bool truth, string answer, Puzzle puzzle)
         {
             if (truth)
             {
+                PlayerController.Gold += puzzle.Difficulty * 50;
                 isSolvingPuzzle = false;
                 PuzzleMenuController.gameObject.SetActive(false);
-
             }
             else
             {
-                 OnPuzzleTimeExpiration();
-
+                OnPuzzleTimeExpiration();
             }
         }
 

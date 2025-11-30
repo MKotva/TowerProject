@@ -21,7 +21,6 @@ namespace Assets.Scripts
         public double MaxEndurance = 100;
         public double Endurance = 100;
 
-        public double Money = 100;
         public SkillSet SkillSet;
         public Weapon Weapon;
         public Armor Armor;

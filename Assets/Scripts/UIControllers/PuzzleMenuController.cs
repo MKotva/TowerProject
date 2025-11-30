@@ -18,6 +18,7 @@ public class PuzzleMenuController : MonoBehaviour
     public Action<bool, string, Puzzle> OnAnswerClicked;
     private Puzzle currentPuzzle;
 
+
     public void ShowPuzzle(Puzzle puzzle, int time, OnTimerEnd callBack)
     {
         if (puzzle == null)
@@ -55,7 +56,7 @@ public class PuzzleMenuController : MonoBehaviour
                 HandleAnswerClick(isCorrect, capturedAnswer);
             });
         }
-
+        timer.timerEndEvent = callBack;
         timer.StartTimer(time);
     }
 
@@ -74,7 +75,6 @@ public class PuzzleMenuController : MonoBehaviour
     }
     private void HandleAnswerClick(bool isCorrect, string answerText)
     {
-        // Let other systems (score, FX, etc.) react
         OnAnswerClicked?.Invoke(isCorrect, answerText, currentPuzzle);
     }
 

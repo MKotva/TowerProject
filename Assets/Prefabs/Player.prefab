@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7251455834256282179}
   - component: {fileID: 42602517862933134}
   - component: {fileID: 7761568749515278198}
+  - component: {fileID: 5576504877871692540}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -100,11 +101,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456d87b38e64b4140b4f40e39b57cda9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHP: 5
+  MaxLives: 5
+  Lives: 5
+  LiveHP: 20
   HP: 5
-  MaxMana: 100
-  Mana: 100
   MaxEndurance: 100
   Endurance: 100
   Money: 100
+  Weapon: {fileID: 0}
+  Armor: {fileID: 0}
   isInCombat: 0
+  Gold: 100
+  HPPotions: 0
+  StaminaPotions: 0
+--- !u!95 &5576504877871692540
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421820402335869318}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 86a6c1839b71d57409beebe454b8830e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
