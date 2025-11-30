@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using DG.Tweening;
 using Unity.VisualScripting;
+using System;
 
 //Enum for actions where we need to store the state. Defend, Rest and Potions have immediate effects.
 public enum SelectedAction
@@ -24,7 +25,9 @@ public class CombatSceneController : MonoBehaviour
     public Vector3 baseOffs = new Vector3(0, -3, 0);
     public GameObject CellObj;
     public Entity player;
+    private Vector2Int playerPos;
     public List<Entity> enemies;
+    private List<Tuple<Entity, Vector2Int>> enemiesPos;
     private GameObject[,] CellArray = null;
 
     public SelectedAction curSelectedAction = SelectedAction.None;
@@ -55,6 +58,18 @@ public class CombatSceneController : MonoBehaviour
         //Spawn player and enemy sprites. TODO, IDK how we do this. For now I'm linking player as an object. I can manipulate
 
         //Player always spawns at (0,2), move him there.
+        player.gameObject.transform.position = CellArray[0, 2].transform.position;
+        playerPos = new Vector2Int(0, 2);
+        //we start the enemy positioning from (15,5)
+        enemiesPos=new List<Tuple<Entity, Vector2Int>>();
+        for (int i=0; i<enemies.Count; i++)
+        {
+            int h = GridHeight-1 - i % 5;
+            int w = GridWidth - 1 - h / 5;
+
+            enemiesPos.Add(new Tuple<Entity, Vector2Int>(enemies[i], new Vector2Int(w, h)));
+            enemiesPos[i].Item1.transform.position = CellArray[w,h].transform.position;
+        }
 
     }
     //Method for grid buttons to send signal that they've been pressed.
@@ -66,6 +81,8 @@ public class CombatSceneController : MonoBehaviour
         {
             case SelectedAction.Move:
                 MoveGO(w, h, player.gameObject);
+                playerPos = new Vector2Int(w, h);
+                TurnState++;
                 break;
             case SelectedAction.Attack:
                 break;
@@ -74,37 +91,82 @@ public class CombatSceneController : MonoBehaviour
         }
         curSelectedAction = SelectedAction.None;       
     }
-    public void MoveGO( int w, int h, GameObject go)
+    public void MoveGO(int w, int h, GameObject go)
     {
         //go.transform.position=CellArray[w, h].transform.position;
-
         go.transform.DOMove(CellArray[w, h].transform.position, 1);
     }
     // Update is called once per frame
     void Update()
     {
-        if (TurnState == -1)
+        if (!TurnDisabled)
         {
-            //player to move
+            if (TurnState == -1)
+            {
+                //player to move
+            }
+            else
+            {
+                bool endedTurn = getEnemyAction(TurnState);
+                //TODO: This should move the enemy,. in future also lock controls
+                if (endedTurn)
+                {
+                    TurnState++;
+                }
+            }
         }
-        else
+        if (TurnState >= enemies.Count)
         {
-            if (TurnState >= enemies.Count)
-            {
-                TurnState = -1;
-                return;
-            }
-            var curMoving = enemies[TurnState];
-            bool endedTurn=getEnemyAction(curMoving);
-            //TODO: This should move the enemy,. in future also lock controls
-            if (endedTurn)
-            {
-                TurnState++;
-            }
+            TurnState = -1;
         }
     }
-    private bool getEnemyAction(Entity enemy)
+    private bool getEnemyAction(int idx)
     {
+        Entity enemy= enemiesPos[idx].Item1;
+        Vector2Int curEnemyPos= enemiesPos[idx].Item2;
+        Vector2Int resultPos=curEnemyPos;
+        const int max_move= 3;
+        if (Math.Abs(curEnemyPos.x - playerPos.x) + Math.Abs(curEnemyPos.y - playerPos.y) > 1)
+        {
+            //move
+            if (Math.Abs(curEnemyPos.x - playerPos.x) > 3)
+            {
+                if (curEnemyPos.x - playerPos.x > 0)
+                {
+                    resultPos = new Vector2Int(curEnemyPos.x - 3, curEnemyPos.y);
+                    //TODO: Update position
+                }
+                else
+                {
+                    resultPos = new Vector2Int(curEnemyPos.x + 3, curEnemyPos.y);
+                }
+            }
+            else if (Math.Abs(curEnemyPos.y - playerPos.y) > 3)
+            {
+                if (curEnemyPos.y - playerPos.y > 0)
+                {
+                    resultPos = new Vector2Int(curEnemyPos.x, curEnemyPos.y - 3);
+                }
+                else
+                {
+                    resultPos = new Vector2Int(curEnemyPos.x, curEnemyPos.y + 3);
+                }
+            }
+            else
+            {
+                var xMove = curEnemyPos.x - playerPos.x;
+                var xAbs = Mathf.Abs(xMove);
+                var yMove = Mathf.Min(max_move - xAbs, Mathf.Abs(curEnemyPos.y-playerPos.y));
+                if (curEnemyPos.y < playerPos.y)
+                {
+                    yMove *= -1;
+                }
+                resultPos = new Vector2Int(curEnemyPos.x - (curEnemyPos.x - playerPos.x), curEnemyPos.y-yMove);                
+            }
+            resultPos = new Vector2Int(Math.Clamp(resultPos.x, 0,GridWidth-1), Math.Clamp(resultPos.y,0,GridHeight-1));
+            MoveGO(resultPos.x, resultPos.y, enemy.gameObject);//Bug
+            enemiesPos[idx] = new Tuple<Entity, Vector2Int>(enemy,resultPos);
+        }
         //We should select and execute enemy action here
         return true;
     }
