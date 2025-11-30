@@ -24,7 +24,7 @@ public class CombatSceneController : MonoBehaviour
     public float ZPerHeight = 1;
     public Vector3 baseOffs = new Vector3(0, -3, 0);
     public GameObject CellObj;
-    public Entity player;
+    public PlayerController player;
     private Vector2Int playerPos;
     public List<Entity> enemies;
     public List<Tuple<Entity, Vector2Int>> enemiesPos;
@@ -35,6 +35,7 @@ public class CombatSceneController : MonoBehaviour
     private bool TimerDisableMove=false;
     private float totDelta = 0;
     private bool enemyMoved = false;
+    private bool playerHasAttacked=false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -92,14 +93,18 @@ public class CombatSceneController : MonoBehaviour
                     curSelectedAction = SelectedAction.None;
                     break;
                 case SelectedAction.Attack:
-                    if (PlayerAttack(w, h))
+                    if (!playerHasAttacked)
                     {
-                        TurnState++;
-                    }
-                    else
-                    {
-                        curSelectedAction = SelectedAction.None;
-                        return;
+                        if (PlayerAttack(w, h))
+                        {
+                            playerHasAttacked = true;
+
+                        }
+                        else
+                        {
+                            curSelectedAction = SelectedAction.None;
+                            return;
+                        }
                     }
                     break;
                 default:
