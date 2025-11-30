@@ -399,7 +399,6 @@ MonoBehaviour:
   PlayerController: {fileID: 160965779}
   PuzzleMenuController: {fileID: 648682697}
   PuzzlePath: Assets/Riddles.xml
-  upcomingRooms: 
 --- !u!114 &78102196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1232,11 +1231,8 @@ MonoBehaviour:
   Lives: 5
   LiveHP: 20
   HP: 5
-  MaxMana: 100
-  Mana: 100
   MaxEndurance: 100
   Endurance: 100
-  Money: 100
   Weapon: {fileID: 0}
   Armor: {fileID: 0}
   isInCombat: 0
@@ -3642,7 +3638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &882670207
 RectTransform:
   m_ObjectHideFlags: 0

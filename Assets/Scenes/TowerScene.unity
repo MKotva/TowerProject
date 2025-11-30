@@ -986,7 +986,7 @@ MonoBehaviour:
   ReachedLevel: 1
   PlayerController: {fileID: 572537579}
   PuzzleMenuController: {fileID: 37174369}
-  PuzzlePath: Assets/Riddles.xml
+  PuzzlePath: Assets/Resources/Data/Riddles.xml
 --- !u!114 &1171697240
 MonoBehaviour:
   m_ObjectHideFlags: 0
