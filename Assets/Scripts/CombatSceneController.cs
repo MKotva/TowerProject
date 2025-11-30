@@ -27,11 +27,11 @@ public class CombatSceneController : MonoBehaviour
     public Entity player;
     private Vector2Int playerPos;
     public List<Entity> enemies;
-    private List<Tuple<Entity, Vector2Int>> enemiesPos;
+    public List<Tuple<Entity, Vector2Int>> enemiesPos;
     private GameObject[,] CellArray = null;
 
     public SelectedAction curSelectedAction = SelectedAction.None;
-    private int TurnState=-1;
+    public int TurnState=-1;
     private bool TimerDisableMove=false;
     private float totDelta = 0;
     private bool enemyMoved = false;
@@ -120,7 +120,7 @@ public class CombatSceneController : MonoBehaviour
             if (enemiesPos[i].Item2.x==w && enemiesPos[i].Item2.y == h)
             {
                 //If there is an enemy, we attack
-                enemiesPos[i].Item1.RecieveDamage(player.Weapon.DamagePower);
+                enemiesPos[i].Item1.RecieveDamage(player.DealDamage());
                 return true;
             }            
         }
@@ -184,8 +184,16 @@ public class CombatSceneController : MonoBehaviour
             enemiesPos[idx] = new Tuple<Entity, Vector2Int>(enemy, resultPos);
             enemyMoved = true;
         }
-        
+        if(Math.Abs(enemyPos.x - playerPos.x) + Math.Abs(enemyPos.y - playerPos.y) <= weapRange)
+        {
+            EnemyAttack(enemy);
+            return true;
+        }
         return true;
+    }
+    public void EnemyAttack(Entity enemy)
+    {
+        player.RecieveDamage(enemy.DealDamage());
     }
     public Vector2Int VerifyKickout(Vector2Int desired)
     {
